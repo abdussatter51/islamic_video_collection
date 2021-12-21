@@ -44,7 +44,7 @@ import java.util.Locale;
 import java.util.Random;
 import java.util.TimeZone;
 
-public class AbdullahJahangirActivity extends YouTubeBaseActivity implements YouTubePlayer.OnInitializedListener {
+public class SaifullahLectureAcitvity extends YouTubeBaseActivity implements YouTubePlayer.OnInitializedListener {
 
         /*
     >>Source Code provided by
@@ -58,128 +58,128 @@ public class AbdullahJahangirActivity extends YouTubeBaseActivity implements You
     private void addVideos(){
         // We will add all videos here
 
-        //Video Details Here Here S
+        //Video Details Here Here
 
-        // Video-01   ------------------------------------------------------------>>>>>>>>>>>>>>>>>
+
+
+        //Video No-01 ------------->>>>>>>>>>>>>>>>>
         hashMap = new HashMap<>();
-        hashMap.put("vdo_id", "5K1FrkJ40kY");
-        hashMap.put("vdo_title", "মুসলিম জাতির ঐক্যের প্রয়োজনীয়তা এবং ঐক্য কিভাবে সম্ভব?");
-        hashMap.put("vdo_desciption", "বক্তা: ড. খোন্দকার আব্দুল্লাহ জাহাঙ্গীর");
+        hashMap.put("vdo_id", "N5AEckG6Zz8");
+        hashMap.put("vdo_title", "পারিবারিক জীবনে রাসূল সা.এঁর শিক্ষা ।");
+        hashMap.put("vdo_desciption", "বক্তা: আব্দুল হাই মোহাম্মাদ সাইফুল্লাহ");
         arrayList.add(hashMap);
 
-        // Video-01   ------------------------------------------------------------>>>>>>>>>>>>>>>>>
+        //Video No-01 ------------->>>>>>>>>>>>>>>>>
         hashMap = new HashMap<>();
-        hashMap.put("vdo_id", "v7a18CUb6Dc");
-        hashMap.put("vdo_title", "আপনার প্রতি রাসুলﷺ এর তিন উপদেশ -ড. খোন্দকার আব্দুল্লাহ জাহাঙ্গীর রহ. ।");
-        hashMap.put("vdo_desciption", "বক্তা: ড. খোন্দকার আব্দুল্লাহ জাহাঙ্গীর");
+        hashMap.put("vdo_id", "kSnSczs9olI");
+        hashMap.put("vdo_title", "স্বাধীনতা ও বিজয়ে আমাদের দায়িত্ব কিকি?");
+        hashMap.put("vdo_desciption", "বক্তা: আব্দুল হাই মোহাম্মাদ সাইফুল্লাহ");
         arrayList.add(hashMap);
 
-        // Video-01   ------------------------------------------------------------>>>>>>>>>>>>>>>>>
+        //Video No-01 ------------->>>>>>>>>>>>>>>>>
         hashMap = new HashMap<>();
-        hashMap.put("vdo_id", "4Rh_ALwwdc0");
-        hashMap.put("vdo_title", "দ্বীনের নামে জালিয়াতি ।");
-        hashMap.put("vdo_desciption", "বক্তা: ড. খোন্দকার আব্দুল্লাহ জাহাঙ্গীর");
+        hashMap.put("vdo_id", "zQAbhzouA0M");
+        hashMap.put("vdo_title", "সসূরা ত্ব-হার আলোকে কুরআনের থেকে কল্যাণ লাভের উপায়।");
+        hashMap.put("vdo_desciption", "বক্তা: আব্দুল হাই মোহাম্মাদ সাইফুল্লাহ");
         arrayList.add(hashMap);
 
-        // Video-01   ------------------------------------------------------------>>>>>>>>>>>>>>>>>
+        //Video No-01 ------------->>>>>>>>>>>>>>>>>
         hashMap = new HashMap<>();
-        hashMap.put("vdo_id", "jqHT5Hyq1_o");
-        hashMap.put("vdo_title", "সুন্নাত পালনের গুরুত্ব/ মাসিক মাহফিল প্রশ্নোত্তর-20১৪ সাল ।");
-        hashMap.put("vdo_desciption", "বক্তা: ড. খোন্দকার আব্দুল্লাহ জাহাঙ্গীর");
+        hashMap.put("vdo_id", "HUqBv5w2g-A");
+        hashMap.put("vdo_title", "কুরআনের আলোকে কথা বলার নিয়মাবলীঃ সম্পূর্ন বয়ান।");
+        hashMap.put("vdo_desciption", "বক্তা: আব্দুল হাই মোহাম্মাদ সাইফুল্লাহ");
         arrayList.add(hashMap);
 
-        // Video-01   ------------------------------------------------------------>>>>>>>>>>>>>>>>>
+        //Video No-01 ------------->>>>>>>>>>>>>>>>>
         hashMap = new HashMap<>();
-        hashMap.put("vdo_id", "tPP9wMObvpU");
-        hashMap.put("vdo_title", "অভিভাবক হিসাবে আপনার দায়িত্ব কি?");
-        hashMap.put("vdo_desciption", "বক্তা: ড. খোন্দকার আব্দুল্লাহ জাহাঙ্গীর");
+        hashMap.put("vdo_id", "zHZQGaXZfSE");
+        hashMap.put("vdo_title", "বান্দার দোষ আল্লাহর ভাষায়।।সমাধান ও করনীয়।");
+        hashMap.put("vdo_desciption", "বক্তা: আব্দুল হাই মোহাম্মাদ সাইফুল্লাহ");
         arrayList.add(hashMap);
 
-        // Video-01   ------------------------------------------------------------>>>>>>>>>>>>>>>>>
+        //Video No-01 ------------->>>>>>>>>>>>>>>>>
         hashMap = new HashMap<>();
-        hashMap.put("vdo_id", "TpUd6iOXV-8");
-        hashMap.put("vdo_title", "আল্লাহুর অলি হবেন কি ভাবে?");
-        hashMap.put("vdo_desciption", "বক্তা: ড. খোন্দকার আব্দুল্লাহ জাহাঙ্গীর");
+        hashMap.put("vdo_id", "tj1kMsmxsfQ");
+        hashMap.put("vdo_title", "জান্নাতে যাওয়ার শর্ত কি খুব কঠিন? ভেবে বলছেন নাকি আন্দাজে?");
+        hashMap.put("vdo_desciption", "বক্তা: আব্দুল হাই মোহাম্মাদ সাইফুল্লাহ");
         arrayList.add(hashMap);
 
-        // Video-01   ------------------------------------------------------------>>>>>>>>>>>>>>>>>
+        //Video No-01 ------------->>>>>>>>>>>>>>>>>
         hashMap = new HashMap<>();
-        hashMap.put("vdo_id", "opM7_rtlEyg");
-        hashMap.put("vdo_title", "কিয়ামতের আলামতসমূহ কি কি? ইমাম মাহদী কখন আসবেন? দাজ্জাল কেন আসবে? ।");
-        hashMap.put("vdo_desciption", "বক্তা: ড. খোন্দকার আব্দুল্লাহ জাহাঙ্গীর");
+        hashMap.put("vdo_id", "3oZd9OZh6Nc");
+        hashMap.put("vdo_title", "সূরা হুজরাতের সামাজিক শিক্ষা।।মানুষের জন্য মানুষের অধিকার।");
+        hashMap.put("vdo_desciption", "বক্তা: আব্দুল হাই মোহাম্মাদ সাইফুল্লাহ");
         arrayList.add(hashMap);
 
-        // Video-01   ------------------------------------------------------------>>>>>>>>>>>>>>>>>
+        //Video No-01 ------------->>>>>>>>>>>>>>>>>
         hashMap = new HashMap<>();
-        hashMap.put("vdo_id", "lHwCw6mqXpQ");
-        hashMap.put("vdo_title", "ঈদে মিলাদুন্নবী উৎপত্তি ও ক্রমবিকাশ ।");
-        hashMap.put("vdo_desciption", "বক্তা: ড. খোন্দকার আব্দুল্লাহ জাহাঙ্গীর");
+        hashMap.put("vdo_id", "16vQmSwE2iE");
+        hashMap.put("vdo_title", "আমানত ও ওয়াদাঃ মানব জীবনে বুঝে নেয়া দায়িত্ব।");
+        hashMap.put("vdo_desciption", "বক্তা: আব্দুল হাই মোহাম্মাদ সাইফুল্লাহ");
         arrayList.add(hashMap);
 
-        // Video-01   ------------------------------------------------------------>>>>>>>>>>>>>>>>>
+        //Video No-01 ------------->>>>>>>>>>>>>>>>>
         hashMap = new HashMap<>();
-        hashMap.put("vdo_id", "q2shOMSZ0kc");
-        hashMap.put("vdo_title", "দুবাই সফরের কিছু চমৎকার অনুভূতি ড. খোন্দকার আব্দুল্লাহ জাহাঙ্গীর রাহিমাহুল্লাহ ।");
-        hashMap.put("vdo_desciption", "বক্তা: ড. খোন্দকার আব্দুল্লাহ জাহাঙ্গীর");
+        hashMap.put("vdo_id", "zYRf4Ienv1k");
+        hashMap.put("vdo_title", "নারীর মর্যাদা।। সমানাধিকার? ইসলামের দিক দর্শন কি? বিস্তারিত বর্ননা।");
+        hashMap.put("vdo_desciption", "বক্তা: আব্দুল হাই মোহাম্মাদ সাইফুল্লাহ");
         arrayList.add(hashMap);
 
-        // Video-01   ------------------------------------------------------------>>>>>>>>>>>>>>>>>
+        //Video No-01 ------------->>>>>>>>>>>>>>>>>
         hashMap = new HashMap<>();
-        hashMap.put("vdo_id", "4EQdP1v8L4k");
-        hashMap.put("vdo_title", "আল্লাহকে আপন করে নিন ! ড. খোন্দকার আব্দুল্লাহ জাহাঙ্গীর (রাহিমাহুল্লাহ) ।");
-        hashMap.put("vdo_desciption", "বক্তা: ড. খোন্দকার আব্দুল্লাহ জাহাঙ্গীর");
+        hashMap.put("vdo_id", "3cdick3-xdk");
+        hashMap.put("vdo_title", "সূরা কুরাইশের তাফসীর।। সালাতে অধিক পঠিত সূরার তাফসীর।");
+        hashMap.put("vdo_desciption", "বক্তা: আব্দুল হাই মোহাম্মাদ সাইফুল্লাহ");
         arrayList.add(hashMap);
 
-        // Video-01   ------------------------------------------------------------>>>>>>>>>>>>>>>>>
+        //Video No-01 ------------->>>>>>>>>>>>>>>>>
         hashMap = new HashMap<>();
-        hashMap.put("vdo_id", "o1DUyeH9CxA");
-        hashMap.put("vdo_title", "আমাদের সকল কিছু সুন্নতের মধ্যে থাকা দরকার ড. আব্দুল্লাহ জাহাঙ্গীর ।");
-        hashMap.put("vdo_desciption", "বক্তা: ড. খোন্দকার আব্দুল্লাহ জাহাঙ্গীর");
+        hashMap.put("vdo_id", "urCMdko0rxI");
+        hashMap.put("vdo_title", "তাওয়াক্কুল আলাল্লাহ।। কীভাবে?।। শক্তি শালী মানবের মূল গুন কোনটি?");
+        hashMap.put("vdo_desciption", "বক্তা: আব্দুল হাই মোহাম্মাদ সাইফুল্লাহ");
         arrayList.add(hashMap);
 
-        // Video-01   ------------------------------------------------------------>>>>>>>>>>>>>>>>>
+        //Video No-01 ------------->>>>>>>>>>>>>>>>>
         hashMap = new HashMap<>();
-        hashMap.put("vdo_id", "sANa-PCSjrI");
-        hashMap.put("vdo_title", "আল্লাহুয়াকবার! বিস্ময়কর একটি ওয়াজ নসিহত ।");
-        hashMap.put("vdo_desciption", "বক্তা: ড. খোন্দকার আব্দুল্লাহ জাহাঙ্গীর");
+        hashMap.put("vdo_id", "M6T9KjeGpPU");
+        hashMap.put("vdo_title", "সূরা ফীলের তাফসীর।।ছোটো সূরার তাফসীর ক্লাস।");
+        hashMap.put("vdo_desciption", "বক্তা: আব্দুল হাই মোহাম্মাদ সাইফুল্লাহ");
         arrayList.add(hashMap);
 
-        // Video-01   ------------------------------------------------------------>>>>>>>>>>>>>>>>>
+        //Video No-01 ------------->>>>>>>>>>>>>>>>>
         hashMap = new HashMap<>();
-        hashMap.put("vdo_id", "8anNglpMV8I");
-        hashMap.put("vdo_title", "এমন অপ্রিয় সত্য ওয়াজ শুনেছেন কি কখনো !");
-        hashMap.put("vdo_desciption", "বক্তা: ড. খোন্দকার আব্দুল্লাহ জাহাঙ্গীর");
+        hashMap.put("vdo_id", "kNUGrptTlVw");
+        hashMap.put("vdo_title", "সাইফুল্লাহ ভাই এতবড় চুল কেনো আপনার? সুন্নাতের সীমা জানেন না আপনি?");
+        hashMap.put("vdo_desciption", "বক্তা: আব্দুল হাই মোহাম্মাদ সাইফুল্লাহ");
         arrayList.add(hashMap);
 
-        // Video-01   ------------------------------------------------------------>>>>>>>>>>>>>>>>>
+        //Video No-01 ------------->>>>>>>>>>>>>>>>>
         hashMap = new HashMap<>();
-        hashMap.put("vdo_id", "_NFe5hxcBWY");
-        hashMap.put("vdo_title", "বিপদে পড়লে দুআ চাওয়ার একটি শিক্ষণীয় গল্প ।");
-        hashMap.put("vdo_desciption", "বক্তা: ড. খোন্দকার আব্দুল্লাহ জাহাঙ্গীর");
+        hashMap.put("vdo_id", "rLYz9orcyyg");
+        hashMap.put("vdo_title", "সূরা ফাতিহার তাফসীর।। সংক্ষিপ্ত শিক্ষা সহ।। তাফসীর সিরিজ।");
+        hashMap.put("vdo_desciption", "বক্তা: আব্দুল হাই মোহাম্মাদ সাইফুল্লাহ");
         arrayList.add(hashMap);
 
-        // Video-01   ------------------------------------------------------------>>>>>>>>>>>>>>>>>
+        //Video No-01 ------------->>>>>>>>>>>>>>>>>
         hashMap = new HashMap<>();
-        hashMap.put("vdo_id", "h9HCdcuzVHM");
-        hashMap.put("vdo_title", "আব্দুল্লাহ জাহাঙ্গীর রাহিমাহুল্লাহ এর অসাধারণ একটি আলোচনা ।");
-        hashMap.put("vdo_desciption", "বক্তা: ড. খোন্দকার আব্দুল্লাহ জাহাঙ্গীর");
+        hashMap.put("vdo_id", "7Evr0r9Nw2w");
+        hashMap.put("vdo_title", "সূরা কাহাফের নয়টি অনন্য শিক্ষা ।। নতুন আলোচনা।");
+        hashMap.put("vdo_desciption", "বক্তা: আব্দুল হাই মোহাম্মাদ সাইফুল্লাহ");
         arrayList.add(hashMap);
 
-        // Video-01   ------------------------------------------------------------>>>>>>>>>>>>>>>>>
+        //Video No-01 ------------->>>>>>>>>>>>>>>>>
         hashMap = new HashMap<>();
-        hashMap.put("vdo_id", "MkSISDn_euQ");
-        hashMap.put("vdo_title", "রাসূল (সা.) এর জীবন থেকে প্রকৃত শিক্ষা গ্রহণ করুন... ।");
-        hashMap.put("vdo_desciption", "বক্তা: ড. খোন্দকার আব্দুল্লাহ জাহাঙ্গীর");
+        hashMap.put("vdo_id", "RU0yMmVCAfU");
+        hashMap.put("vdo_title", "আপনার অবস্থান কোথায়? কী হওয়া উচিৎ আমাদের অবস্থান?");
+        hashMap.put("vdo_desciption", "বক্তা: আব্দুল হাই মোহাম্মাদ সাইফুল্লাহ");
         arrayList.add(hashMap);
 
-
-        // Video-01   ------------------------------------------------------------>>>>>>>>>>>>>>>>>
+        //Video No-01 ------------->>>>>>>>>>>>>>>>>
         hashMap = new HashMap<>();
-        hashMap.put("vdo_id", "oRT5aoUNx20");
-        hashMap.put("vdo_title", "দাওয়াতের ক্ষেত্রে যে তিনটি ভূল আমরা করে থাকি?");
-        hashMap.put("vdo_desciption", "বক্তা: ড. খোন্দকার আব্দুল্লাহ জাহাঙ্গীর");
+        hashMap.put("vdo_id", "8FJhcJMGayU");
+        hashMap.put("vdo_title", "জিলহজ্ব মাসের দশ দিনের দাম ও আল্লাহর যিকিরের ফযীলত।");
+        hashMap.put("vdo_desciption", "বক্তা: আব্দুল হাই মোহাম্মাদ সাইফুল্লাহ");
         arrayList.add(hashMap);
-
 
 
     }
@@ -208,7 +208,7 @@ public class AbdullahJahangirActivity extends YouTubeBaseActivity implements You
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_abdullah_jahangir);
+        setContentView(R.layout.activity_safullah_lecture);
 
 
         MobileAds.initialize(this, new OnInitializationCompleteListener() {
@@ -234,7 +234,7 @@ public class AbdullahJahangirActivity extends YouTubeBaseActivity implements You
 
 
         //init Youtube Player View
-        youTubePlayerView.initialize("ABCD", AbdullahJahangirActivity.this);
+        youTubePlayerView.initialize("ABCD", SaifullahLectureAcitvity.this);
         myPlaybackEventListener = new MyPlaybackEventListener();
 
 
@@ -290,11 +290,11 @@ public class AbdullahJahangirActivity extends YouTubeBaseActivity implements You
                     String tag = v.getTag().toString();
                     if (tag.contains("PLAYING")){
                         if (myYoutubePlayer!=null) myYoutubePlayer.pause();
-                        else Toast.makeText(AbdullahJahangirActivity.this, "Please wait...", Toast.LENGTH_LONG).show();
+                        else Toast.makeText(SaifullahLectureAcitvity.this, "Please wait...", Toast.LENGTH_LONG).show();
 
                     }else if (tag.contains("PAUSED")){
                         if (myYoutubePlayer!=null) myYoutubePlayer.play();
-                        else Toast.makeText(AbdullahJahangirActivity.this, "Please wait...", Toast.LENGTH_LONG).show();
+                        else Toast.makeText(SaifullahLectureAcitvity.this, "Please wait...", Toast.LENGTH_LONG).show();
                     }
                 }
 
@@ -328,7 +328,7 @@ public class AbdullahJahangirActivity extends YouTubeBaseActivity implements You
 
     private void makeListView(){
 
-        ListView listView = new ListView( AbdullahJahangirActivity.this);
+        ListView listView = new ListView( SaifullahLectureAcitvity.this);
         RelativeLayout.LayoutParams layoutParams = new RelativeLayout.LayoutParams(150, 10);
         layoutParams.height = ViewGroup.LayoutParams.WRAP_CONTENT;
         layoutParams.width = ViewGroup.LayoutParams.MATCH_PARENT;
@@ -349,7 +349,7 @@ public class AbdullahJahangirActivity extends YouTubeBaseActivity implements You
             e.printStackTrace();
         }
 
-        layoutContainer.startAnimation(AnimationUtils.loadAnimation(AbdullahJahangirActivity.this, R.anim.fade_in));
+        layoutContainer.startAnimation(AnimationUtils.loadAnimation(SaifullahLectureAcitvity.this, R.anim.fade_in));
 
     }
 
@@ -457,7 +457,7 @@ public class AbdullahJahangirActivity extends YouTubeBaseActivity implements You
         private LayoutInflater inflater;
 
         public MyAdapter(){
-            this.inflater = (LayoutInflater) AbdullahJahangirActivity.this.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+            this.inflater = (LayoutInflater) SaifullahLectureAcitvity.this.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         }
 
         @Override
@@ -539,12 +539,12 @@ public class AbdullahJahangirActivity extends YouTubeBaseActivity implements You
 
         if(myYoutubePlayer!=null){
             layPlayer.setVisibility(View.VISIBLE);
-            layPlayer.startAnimation(AnimationUtils.loadAnimation(AbdullahJahangirActivity.this, R.anim.fade_in));
+            layPlayer.startAnimation(AnimationUtils.loadAnimation(SaifullahLectureAcitvity.this, R.anim.fade_in));
             myYoutubePlayer.loadVideo(video_id);
             myYoutubePlayer.play();
             playingVideo = true;
         }else{
-            Toast.makeText(AbdullahJahangirActivity.this, "Please wait...", Toast.LENGTH_LONG).show();
+            Toast.makeText(SaifullahLectureAcitvity.this, "Please wait...", Toast.LENGTH_LONG).show();
         }
     }
     //================================================
@@ -685,7 +685,7 @@ public class AbdullahJahangirActivity extends YouTubeBaseActivity implements You
             String vdo_id = hashMap.get("vdo_id");
             playVideo(vdo_id);
         }else{
-            Toast.makeText(AbdullahJahangirActivity.this, "Playing the first video", Toast.LENGTH_LONG).show();
+            Toast.makeText(SaifullahLectureAcitvity.this, "Playing the first video", Toast.LENGTH_LONG).show();
         }
 
     }
@@ -745,6 +745,7 @@ public class AbdullahJahangirActivity extends YouTubeBaseActivity implements You
 
 
     ///====================================================
+
 
     @Override
     protected void onDestroy() {

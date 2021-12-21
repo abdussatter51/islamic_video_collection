@@ -19,6 +19,12 @@
         android:theme="@style/ThemeHome">
 
         <activity
+            android:name=".SaifullahLectureAcitvity"
+            android:exported="false" />
+        <activity
+            android:name=".BanglaSongActivity"
+            android:exported="false" />
+        <activity
             android:name=".AbdullahJahangirActivity"
             android:exported="false" />
         <activity

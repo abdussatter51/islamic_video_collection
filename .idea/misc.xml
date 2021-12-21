@@ -5,6 +5,9 @@
       <map>
         <entry key="..\:/Apps/IslamicVideo/app/src/main/res/drawable/back_arrow.xml" value="0.24166666666666667" />
         <entry key="..\:/Apps/IslamicVideo/app/src/main/res/drawable/bottom_shade.xml" value="0.24444444444444444" />
+        <entry key="..\:/Apps/IslamicVideo/app/src/main/res/drawable/curved_rectangle.xml" value="0.2388888888888889" />
+        <entry key="..\:/Apps/IslamicVideo/app/src/main/res/drawable/left_shade.xml" value="0.26256410256410256" />
+        <entry key="..\:/Apps/IslamicVideo/app/src/main/res/drawable/shade_rectangle.xml" value="0.2388888888888889" />
         <entry key="..\:/Apps/IslamicVideo/app/src/main/res/drawable/splash.xml" value="0.24444444444444444" />
         <entry key="..\:/Apps/IslamicVideo/app/src/main/res/layout/activity_abdullah_jahangir.xml" value="0.25052083333333336" />
         <entry key="..\:/Apps/IslamicVideo/app/src/main/res/layout/activity_bangla_dubbing.xml" value="0.25052083333333336" />
@@ -12,6 +15,7 @@
         <entry key="..\:/Apps/IslamicVideo/app/src/main/res/layout/activity_dubbing_lecture.xml" value="0.25052083333333336" />
         <entry key="..\:/Apps/IslamicVideo/app/src/main/res/layout/activity_mahmud_kashem.xml" value="0.25052083333333336" />
         <entry key="..\:/Apps/IslamicVideo/app/src/main/res/layout/activity_main.xml" value="0.25052083333333336" />
+        <entry key="..\:/Apps/IslamicVideo/app/src/main/res/layout/activity_safullah_lecture.xml" value="0.25052083333333336" />
         <entry key="..\:/Apps/IslamicVideo/app/src/main/res/layout/activity_shaikh_ahmadullah.xml" value="0.25052083333333336" />
         <entry key="..\:/Apps/IslamicVideo/app/src/main/res/layout/player.xml" value="0.25052083333333336" />
         <entry key="..\:/Apps/IslamicVideo/app/src/main/res/layout/video_item.xml" value="0.25052083333333336" />

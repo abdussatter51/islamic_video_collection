@@ -4,48 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MahmudKashemActivity"
+    tools:context=".SaifullahLectureAcitvity"
     android:background="#FFFFFF"
     android:id="@+id/_rootLay"
     >
-    <RelativeLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:orientation="horizontal">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="BMI Calculator"
-            android:textColor="#FFFFFF"
-            android:textSize="23sp"
-            android:textStyle="bold" />
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentRight="true"
-            android:orientation="horizontal">
-
-            <ImageView
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:layout_gravity="center"
-                android:layout_marginRight="10dp"
-                android:src="@drawable/back_arrow"
-                android:textStyle="bold"
-                app:tint="@color/white" />
-
-            <ImageView
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:layout_gravity="center"
-                android:src="@drawable/menu"
-                android:textStyle="bold"
-                app:tint="@color/white" />
-        </LinearLayout>
-    </RelativeLayout>
 
 
 
@@ -83,7 +45,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/kashem" />
+                        android:src="@drawable/saifullah" />
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -97,7 +59,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:gravity="center"
-                            android:text="মাহমুদ বিন কাসেম"
+                            android:text="মোহাম্মদ সাইফুল্লাহ"
                             android:textColor="#FFFFFF"
                             android:textSize="28sp"
                             android:textStyle="bold" />
@@ -116,7 +78,6 @@
 
 
                 </io.github.florent37.shapeofview.shapes.ArcView>
-
 
             </RelativeLayout>
             <!-- Cover Section ENDS ####################### -->
