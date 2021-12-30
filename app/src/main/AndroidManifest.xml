@@ -19,6 +19,15 @@
         android:theme="@style/ThemeHome">
 
         <activity
+            android:name=".QuranTelawatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".IslamiCartonActivity"
+            android:exported="false" />
+        <activity
+            android:name=".IslamiMovieActivity"
+            android:exported="false" />
+        <activity
             android:name=".SaifullahLectureAcitvity"
             android:exported="false" />
         <activity

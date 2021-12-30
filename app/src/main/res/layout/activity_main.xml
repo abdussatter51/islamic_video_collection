@@ -11,7 +11,10 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_alignParentTop="true"
-        android:layout_alignParentBottom="true">
+        android:layout_alignParentBottom="true"
+        android:visibility="visible"
+
+        >
 
         <!-- This layout will contain items by JAVA programmatically -->
         <LinearLayout
@@ -22,17 +25,17 @@
             <!-- Cover Section Starts-->
             <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="250dp"
+                android:layout_height="200dp"
                 android:layout_marginBottom="10dp">
 
                 <io.github.florent37.shapeofview.shapes.BubbleView
                     android:layout_width="match_parent"
-                    android:layout_height="300dp"
+                    android:layout_height="200dp"
+                    app:arrow_posititon_percent="0.5"
                     app:shape_bubble_arrowHeight="30dp"
-                    app:shape_bubble_arrowWidth="50dp"
                     app:shape_bubble_arrowPosition="bottom"
-                    app:shape_bubble_borderRadius="0dp"
-                    app:arrow_posititon_percent="0.5">
+                    app:shape_bubble_arrowWidth="50dp"
+                    app:shape_bubble_borderRadius="0dp">
 
 
                     <!-- YOUR CONTENT -->
@@ -48,8 +51,8 @@
                         android:layout_height="wrap_content"
                         android:layout_alignParentLeft="true"
                         android:layout_alignParentTop="true"
-
                         android:layout_gravity="center"
+                        android:layout_marginBottom="15dp"
                         android:orientation="vertical"
                         android:padding="10dp">
 
@@ -59,7 +62,7 @@
                             android:gravity="center"
                             android:text="ইসলামিক ভিডিও"
                             android:textColor="#FFFFFF"
-                            android:textSize="28sp"
+                            android:textSize="35sp"
                             android:textStyle="bold" />
 
                         <TextView
@@ -67,7 +70,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="5dp"
                             android:gravity="center"
-                            android:text="Islamic Video Collection"
+                            android:text="Varieties Islamic Video Collection"
                             android:textColor="#FFFFFF"
                             android:textSize="18sp"
                             android:textStyle="normal" />
@@ -80,33 +83,27 @@
             </RelativeLayout>
             <!-- Cover Section ENDS ####################### -->
 
-<!--            Fist Row-->
+            <!--            Fist Row-->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="0dp"
                 android:orientation="horizontal"
-                android:weightSum="2"
-                >
+                android:weightSum="2">
+
                 <LinearLayout
                     android:id="@+id/layoutAbdullahJahangir"
-                    android:layout_weight="1"
-                    android:layout_margin="5dp"
+                    style="@style/MainActivityLayoutStyle"
                     android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical"
-                    android:layout_gravity="center"
-                    android:gravity="center"
-                    android:background="@drawable/shade_rectangle"
-                    android:padding="10dp"
-                    >
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
                     <io.github.florent37.shapeofview.shapes.CircleView
                         android:layout_width="150dp"
                         android:layout_height="150dp"
                         android:elevation="4dp"
                         app:shape_circle_borderColor="@color/teal_700"
-                        app:shape_circle_borderWidth="3dp"
-                        >
+                        app:shape_circle_borderWidth="3dp">
                         <!-- YOUR CONTENT -->
                         <ImageView
                             android:layout_width="match_parent"
@@ -114,32 +111,27 @@
                             android:scaleType="centerCrop"
                             android:src="@drawable/jahangir" />
                     </io.github.florent37.shapeofview.shapes.CircleView>
+
                     <TextView
+                        style="@style/HomepageItemTextStyle"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Abdullah Jahangir Lecture"
-                        style="@style/HomepageItemTextStyle"
-                        />
+                        android:text="Abdullah Jahangir Lecture" />
                 </LinearLayout>
+
                 <LinearLayout
                     android:id="@+id/layoutAhmadUllah"
-                    android:layout_weight="1"
-                    android:layout_margin="5dp"
+                    style="@style/MainActivityLayoutStyle"
                     android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical"
-                    android:layout_gravity="center"
-                    android:gravity="center"
-                    android:background="@drawable/shade_rectangle"
-                    android:padding="10dp"
-                    >
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
                     <io.github.florent37.shapeofview.shapes.CircleView
                         android:layout_width="150dp"
                         android:layout_height="150dp"
                         android:elevation="4dp"
                         app:shape_circle_borderColor="@color/teal_700"
-                        app:shape_circle_borderWidth="3dp"
-                        >
+                        app:shape_circle_borderWidth="3dp">
                         <!-- YOUR CONTENT -->
                         <ImageView
                             android:layout_width="match_parent"
@@ -147,43 +139,37 @@
                             android:scaleType="centerCrop"
                             android:src="@drawable/ahmadullah" />
                     </io.github.florent37.shapeofview.shapes.CircleView>
+
                     <TextView
+                        style="@style/HomepageItemTextStyle"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Shaikh Ahmadullah Lecture"
-                        style="@style/HomepageItemTextStyle"
-                        />
+                        android:text="Shaikh Ahmadullah Lecture" />
                 </LinearLayout>
 
 
             </LinearLayout>
-<!--            Second Row-->
+            <!--            Second Row-->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="0dp"
                 android:orientation="horizontal"
-                android:weightSum="2"
-                >
+                android:weightSum="2">
+
                 <LinearLayout
                     android:id="@+id/layoutKashem"
-                    android:layout_weight="1"
-                    android:layout_margin="5dp"
+                    style="@style/MainActivityLayoutStyle"
                     android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical"
-                    android:layout_gravity="center"
-                    android:gravity="center"
-                    android:background="@drawable/shade_rectangle"
-                    android:padding="10dp"
-                    >
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
                     <io.github.florent37.shapeofview.shapes.CircleView
                         android:layout_width="150dp"
                         android:layout_height="150dp"
                         android:elevation="4dp"
                         app:shape_circle_borderColor="@color/teal_700"
-                        app:shape_circle_borderWidth="3dp"
-                        >
+                        app:shape_circle_borderWidth="3dp">
                         <!-- YOUR CONTENT -->
                         <ImageView
                             android:layout_width="match_parent"
@@ -191,131 +177,245 @@
                             android:scaleType="centerCrop"
                             android:src="@drawable/kashem" />
                     </io.github.florent37.shapeofview.shapes.CircleView>
+
                     <TextView
+                        style="@style/HomepageItemTextStyle"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Mahmud Kashem Lecture"
-                        style="@style/HomepageItemTextStyle"
-                        />
+                        android:text="Mahmud Kashem Lecture" />
                 </LinearLayout>
+
                 <LinearLayout
-                    android:id="@+id/layoutDubbing"
-                    android:layout_weight="1"
-                    android:layout_margin="5dp"
+                    android:id="@+id/layoutSaifullah"
+                    style="@style/MainActivityLayoutStyle"
                     android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical"
-                    android:layout_gravity="center"
-                    android:gravity="center"
-                    android:background="@drawable/shade_rectangle"
-                    android:padding="10dp"
-                    >
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
                     <io.github.florent37.shapeofview.shapes.CircleView
                         android:layout_width="150dp"
                         android:layout_height="150dp"
                         android:elevation="4dp"
                         app:shape_circle_borderColor="@color/teal_700"
-                        app:shape_circle_borderWidth="3dp"
-                        >
-                        <!-- YOUR CONTENT -->
-                        <ImageView
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:scaleType="fitXY"
-                            android:src="@drawable/dubbing" />
-                    </io.github.florent37.shapeofview.shapes.CircleView>
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="Bangla Dubbing Video Lecture"
-                        style="@style/HomepageItemTextStyle"
-                        />
-                </LinearLayout>
-
-
-            </LinearLayout>
-<!--            Third Row-->
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="0dp"
-                android:orientation="horizontal"
-                android:weightSum="2"
-                >
-                <LinearLayout
-                    android:id="@+id/layoutBanglaSong"
-                    android:layout_weight="1"
-                    android:layout_margin="5dp"
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical"
-                    android:layout_gravity="center"
-                    android:gravity="center"
-                    android:background="@drawable/shade_rectangle"
-                    android:padding="10dp"
-                    >
-                    <io.github.florent37.shapeofview.shapes.CircleView
-                        android:layout_width="150dp"
-                        android:layout_height="150dp"
-                        android:elevation="4dp"
-                        app:shape_circle_borderColor="@color/teal_700"
-                        app:shape_circle_borderWidth="3dp"
-                        >
+                        app:shape_circle_borderWidth="3dp">
                         <!-- YOUR CONTENT -->
                         <ImageView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:scaleType="centerCrop"
-                            android:src="@drawable/gojol" />
+                            android:src="@drawable/saifullah" />
                     </io.github.florent37.shapeofview.shapes.CircleView>
+
                     <TextView
+                        style="@style/HomepageItemTextStyle"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Bangla Islamic Video Song"
-                        style="@style/HomepageItemTextStyle"
-                        />
+                        android:text="Muhammad Saifullah Lecture" />
                 </LinearLayout>
+
+
+            </LinearLayout>
+            <!--            Third Row-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="0dp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
                 <LinearLayout
-                    android:id="@+id/layoutSaifullah"
-                    android:layout_weight="1"
-                    android:layout_margin="5dp"
+                    android:id="@+id/layoutDubbing"
+                    style="@style/MainActivityLayoutStyle"
                     android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical"
-                    android:layout_gravity="center"
-                    android:gravity="center"
-                    android:background="@drawable/shade_rectangle"
-                    android:padding="10dp"
-                    >
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
                     <io.github.florent37.shapeofview.shapes.CircleView
                         android:layout_width="150dp"
                         android:layout_height="150dp"
                         android:elevation="4dp"
                         app:shape_circle_borderColor="@color/teal_700"
-                        app:shape_circle_borderWidth="3dp"
-                        >
+                        app:shape_circle_borderWidth="3dp">
+                        <!-- YOUR CONTENT -->
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/dubbing" />
+                    </io.github.florent37.shapeofview.shapes.CircleView>
+
+                    <TextView
+                        style="@style/HomepageItemTextStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Bangla Dubbing Video Lecture" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/layoutIslamicMovie"
+                    style="@style/MainActivityLayoutStyle"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <io.github.florent37.shapeofview.shapes.CircleView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:elevation="4dp"
+                        app:shape_circle_borderColor="@color/teal_700"
+                        app:shape_circle_borderWidth="3dp">
                         <!-- YOUR CONTENT -->
                         <ImageView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:scaleType="fitXY"
-                            android:src="@drawable/saifullah" />
+                            android:src="@drawable/movie" />
                     </io.github.florent37.shapeofview.shapes.CircleView>
+
                     <TextView
+                        style="@style/HomepageItemTextStyle"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Muhammad Saifullah Lecture"
-                        style="@style/HomepageItemTextStyle"
-                        />
+                        android:text="Islamic Movie Bangla Dubbing" />
                 </LinearLayout>
 
+            </LinearLayout>
+            <!--            Fourth Row-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="0dp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <LinearLayout
+                    android:id="@+id/layoutIslamicCarton"
+                    style="@style/MainActivityLayoutStyle"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <io.github.florent37.shapeofview.shapes.CircleView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:elevation="4dp"
+                        app:shape_circle_borderColor="@color/teal_700"
+                        app:shape_circle_borderWidth="3dp">
+                        <!-- YOUR CONTENT -->
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/carton" />
+                    </io.github.florent37.shapeofview.shapes.CircleView>
+
+                    <TextView
+                        style="@style/HomepageItemTextStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Islamic Carton Video Bangla" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/layoutBanglaSong"
+                    style="@style/MainActivityLayoutStyle"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <io.github.florent37.shapeofview.shapes.CircleView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:elevation="4dp"
+                        app:shape_circle_borderColor="@color/teal_700"
+                        app:shape_circle_borderWidth="3dp">
+                        <!-- YOUR CONTENT -->
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/gojol" />
+                    </io.github.florent37.shapeofview.shapes.CircleView>
+
+                    <TextView
+                        style="@style/HomepageItemTextStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Bangla Islamic Video Song" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!--            Fifth Row-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="0dp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <LinearLayout
+                    android:id="@+id/layoutQuranTelawat"
+                    style="@style/MainActivityLayoutStyle"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <io.github.florent37.shapeofview.shapes.CircleView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:elevation="4dp"
+                        app:shape_circle_borderColor="@color/teal_700"
+                        app:shape_circle_borderWidth="3dp">
+                        <!-- YOUR CONTENT -->
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/quran" />
+                    </io.github.florent37.shapeofview.shapes.CircleView>
+
+                    <TextView
+                        style="@style/HomepageItemTextStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Quran Recitation" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/layoutQuranTelawatBangla"
+                    style="@style/MainActivityLayoutStyle"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <io.github.florent37.shapeofview.shapes.CircleView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:elevation="4dp"
+                        app:shape_circle_borderColor="@color/teal_700"
+                        app:shape_circle_borderWidth="3dp">
+                        <!-- YOUR CONTENT -->
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/gojol" />
+                    </io.github.florent37.shapeofview.shapes.CircleView>
+
+                    <TextView
+                        style="@style/HomepageItemTextStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Bangla Islamic Video Song" />
+                </LinearLayout>
 
             </LinearLayout>
 
 
-
         </LinearLayout>
     </ScrollView>
+
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/fabButton"

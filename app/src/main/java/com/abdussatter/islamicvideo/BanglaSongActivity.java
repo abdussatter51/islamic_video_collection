@@ -61,6 +61,22 @@ public class BanglaSongActivity extends YouTubeBaseActivity implements YouTubePl
         //Video Details Here Here
 
 
+        //Video No-57 -------------->>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "HAbh6xSmTOI");
+        hashMap.put("vdo_title", "আমার বাংলাদেশ । সময়ের সেরা দেশের গজল ।");
+        hashMap.put("vdo_desciption", "Singer:  Sayed Ahmad, Muhammad Badruzzaman");
+        arrayList.add(hashMap);
+
+
+        //Video No-56 -------------->>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "8IXUIhzz4I4");
+        hashMap.put("vdo_title", "সময়ের সেরা নতুন গজল । ইশকে নাবী জিন্দাবাদ ।");
+        hashMap.put("vdo_desciption", "Singer:  Sayed Ahmad, Muhammad Badruzzaman");
+        arrayList.add(hashMap);
+
+
         //Video No-55 -------------->>>>>>>>>>>>>>>>>
         hashMap = new HashMap<>();
         hashMap.put("vdo_id", "8DnoQnyQm4U");
@@ -68,6 +84,7 @@ public class BanglaSongActivity extends YouTubeBaseActivity implements YouTubePl
         hashMap.put("vdo_desciption", "Song: Nobijir Dushmon\n" +
                 "Tune & Singer: Sayed Ahmad\n" +
                 "Lyric: Abu Bakar");
+        arrayList.add(hashMap);
 
 
 
@@ -627,6 +644,55 @@ public class BanglaSongActivity extends YouTubeBaseActivity implements YouTubePl
         hashMap.put("vdo_desciption", "Song : Jader Hridoye Ache Allahr VOY\n" +
                 "Lyric : Collected\n" +
                 "Artist : Abdullah Us Sakib & Monowar HJ");
+        arrayList.add(hashMap);
+
+        //Video No-01 ------------->>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "qPDC7TDYKvg");
+        hashMap.put("vdo_title", "হৃদয় শীতল করা নাতে রাসুল | ওগো মোর পেয়ারা নাবী।");
+        hashMap.put("vdo_desciption", "Singer: Sadman Sakib");
+        arrayList.add(hashMap);
+
+        //Video No-01 ------------->>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "FLV-heiGkzo");
+        hashMap.put("vdo_title", "আমার যখন ফুরাবে দিন আসবে গহীন রাতি।");
+        hashMap.put("vdo_desciption", "Singer: Tarek Monawar");
+        arrayList.add(hashMap);
+
+        //Video No-01 ------------->>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "I4vptqxCtsA");
+        hashMap.put("vdo_title", "জনপ্রিয় নাশিদ | তুমি আছো হৃদয়ের গভীরে");
+        hashMap.put("vdo_desciption", "Singer: Tarek Monawar");
+        arrayList.add(hashMap);
+
+        //Video No-01 ------------->>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "sbdDXluJgpY");
+        hashMap.put("vdo_title", "মন আমার কাঁদে রে | Jete Sonar Madina");
+        hashMap.put("vdo_desciption", "Singer: Tarek Monawar");
+        arrayList.add(hashMap);
+
+        //Video No-01 ------------->>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "XZyT8c8_7wQ");
+        hashMap.put("vdo_title", "বেদনা ভুলায় | তারেক মনোয়ার | নতুন গজল");
+        hashMap.put("vdo_desciption", "Singer: Tarek Monawar");
+        arrayList.add(hashMap);
+
+        //Video No-01 ------------->>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "o_XwDBL1TKk");
+        hashMap.put("vdo_title", "তারেক মনোয়ারের কণ্ঠে নতুন গজল | তোমারি জন্য মন কাঁদে");
+        hashMap.put("vdo_desciption", "Singer: Tarek Monawar");
+        arrayList.add(hashMap);
+
+        //Video No-01 ------------->>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "8P4qZ_bYRbI");
+        hashMap.put("vdo_title", "আমার জীবন আমার মরন,আমার বান্দেগী");
+        hashMap.put("vdo_desciption", "Singer: Tarek Monawar");
         arrayList.add(hashMap);
 
 

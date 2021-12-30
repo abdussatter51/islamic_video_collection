@@ -24,16 +24,23 @@
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>
+
     <!-- Homepage Item Textstyle -->
     <style name="HomepageItemTextStyle" parent="">
-        <!-- Customize your theme here. -->
         <item name="android:textColor">@color/teal_700</item>
         <item name="android:textSize">16sp</item>
         <item name="maxLines">2</item>
         <item name="android:gravity">center</item>
     </style>
 
-
-
+    <!-- Homepage Item Textstyle -->
+    <style name="MainActivityLayoutStyle" parent="">
+        <item name="android:layout_height">211dp</item>
+        <item name="android:background">@drawable/shade_rectangle</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">5dp</item>
+    </style>
 
 </resources>
