@@ -44,7 +44,7 @@ import java.util.Locale;
 import java.util.Random;
 import java.util.TimeZone;
 
-public class QuranTelawatActivity extends YouTubeBaseActivity implements YouTubePlayer.OnInitializedListener {
+public class MokhterAhmadActivity extends YouTubeBaseActivity implements YouTubePlayer.OnInitializedListener {
 
         /*
     >>Source Code provided by
@@ -61,324 +61,298 @@ public class QuranTelawatActivity extends YouTubeBaseActivity implements YouTube
         //Video Details Here Here
 
 
-        //Video-114 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
-        hashMap = new HashMap<>();
-        hashMap.put("vdo_id", "3GBKg8K_n1c");
-        hashMap.put("vdo_title", "সূরা আল ফাতিহা (الْفَاتِحَة\u200E) - আবেগময় কোরআন তেলাওয়াত।");
-        hashMap.put("vdo_desciption", "Reciter: Omar Hisham Al Arabi");
-        arrayList.add(hashMap);
-
-        //Video-105-114 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
-        hashMap = new HashMap<>();
-        hashMap.put("vdo_id", "UPSVFTd6J6Q");
-        hashMap.put("vdo_title", "সূরা ফাতিহা ও সূরা ফিল থেকে সূরা নাস পর্যন্ত - সুরেলা তেলাওয়াত।");
-        hashMap.put("vdo_desciption", "Reciter: Mashary Rashed Al Afasy");
-        arrayList.add(hashMap);
-
-        //Video-99-104 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
-        hashMap = new HashMap<>();
-        hashMap.put("vdo_id", "zSzVGpyzbz0");
-        hashMap.put("vdo_title", "সূরা যিলযাল থেকে সূরা হুমাযাহ পর্যন্ত এক অসাধারণ তেলাওয়াত।");
-        hashMap.put("vdo_desciption", "Reciter: Mashary Rashed Al Afasy");
-        arrayList.add(hashMap);
-
-        //Video-103 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
-        hashMap = new HashMap<>();
-        hashMap.put("vdo_id", "lhJz3fvnB7o");
-        hashMap.put("vdo_title", "সূরা আল আসর (العصر\u200E) তেলাওয়াত।");
-        hashMap.put("vdo_desciption", "Reciter: Mashary Rashed Al Afasy");
-        arrayList.add(hashMap);
-
-        //Video-102 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
-        hashMap = new HashMap<>();
-        hashMap.put("vdo_id", "TEHfTbARZZY");
-        hashMap.put("vdo_title", "সূরা আত তাকাসুর (سورة التكاثر ) তেলাওয়াত।");
-        hashMap.put("vdo_desciption", "Reciter: Muhammad Al Muqit");
-        arrayList.add(hashMap);
-
-        //Video-101 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
-        hashMap = new HashMap<>();
-        hashMap.put("vdo_id", "8BKyhbOxmVY");
-        hashMap.put("vdo_title", "আবেগময় কণ্ঠে সূরা কারিয়াহ তেলাওয়াত।");
-        hashMap.put("vdo_desciption", "Reciter: Omar Hisham Al Arabi");
-        arrayList.add(hashMap);
-
-        //Video-100 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
-        hashMap = new HashMap<>();
-        hashMap.put("vdo_id", "tpy9heWAZ3s");
-        hashMap.put("vdo_title", "সূরা আল আদিয়াতের অত্যন্ত আবেগময় কুরআন তেলাওয়াত।");
-        hashMap.put("vdo_desciption", "Reciter: Omar Hisham Al Arabi");
-        arrayList.add(hashMap);
-
-        //Video-99 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
-        hashMap = new HashMap<>();
-        hashMap.put("vdo_id", "eHtna4zgUas");
-        hashMap.put("vdo_title", "সূরা যিলযাল (الزلزلة) - মনজুড়ানো কোরআন তেলাওয়াত।");
-        hashMap.put("vdo_desciption", "Reciter: Omar Hisham Al Arabi");
-        arrayList.add(hashMap);
-
-        //Video-98 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
-        hashMap = new HashMap<>();
-        hashMap.put("vdo_id", "8PorxeKhcic");
-        hashMap.put("vdo_title", "সূরা বাইয়্যিনাহ ( سورة البينة\u200E\u200E\u200E ) - আবেগময় কোরআন তেলাওয়াত।");
-        hashMap.put("vdo_desciption", "Reciter: Omar Hisham Al Arabi");
-        arrayList.add(hashMap);
-
-        //Video-97 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
-        hashMap = new HashMap<>();
-        hashMap.put("vdo_id", "m1EkX8469vI");
-        hashMap.put("vdo_title", "সূরা আল কদর (القدر ) - আবেগময় কোরআন তেলাওয়াত।");
-        hashMap.put("vdo_desciption", "Reciter: Omar Hisham Al Arabi");
-        arrayList.add(hashMap);
-
-        //Video-96 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
-        hashMap = new HashMap<>();
-        hashMap.put("vdo_id", "J85RU64HtkA");
-        hashMap.put("vdo_title", "সূরা আল আলাক (العلق) - আবেগময় কোরআন তেলাওয়াত।");
-        hashMap.put("vdo_desciption", "Reciter: Omar Hisham Al Arabi");
-        arrayList.add(hashMap);
-
-        //Video-95 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
-        hashMap = new HashMap<>();
-        hashMap.put("vdo_id", "ZlXvGZM9-Pg");
-        hashMap.put("vdo_title", "হৃদয় বিগলিত কণ্ঠে সূরা আত ত্বীন - তেলাওয়াত।");
-        hashMap.put("vdo_desciption", "Reciter: Omar Hisham Al Arabi");
-        arrayList.add(hashMap);
-
-        //Video-94 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
-        hashMap = new HashMap<>();
-        hashMap.put("vdo_id", "suQNqX1CSg8");
-        hashMap.put("vdo_title", "সূরা আল ইনশিরাহ (আলাম নাসরাহ) - তেলাওয়াত।");
-        hashMap.put("vdo_desciption", "Reciter: Abu Zain Kautsar ");
-        arrayList.add(hashMap);
-
-        //Video-93 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
-        hashMap = new HashMap<>();
-        hashMap.put("vdo_id", "jNPhGaAcpSk");
-        hashMap.put("vdo_title", "সূরা দুহা এক অসম্ভব সুন্দর - তেলাওয়াত।");
-        hashMap.put("vdo_desciption", "Reciter: Shamsul Haque");
-        arrayList.add(hashMap);
-
-        //Video-92 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
-        hashMap = new HashMap<>();
-        hashMap.put("vdo_id", "kORwIXgA1EU");
-        hashMap.put("vdo_title", "আত্মা প্রশান্তকারী কণ্ঠে সূরা আল লাইল এর তেলাওয়াত।");
-        hashMap.put("vdo_desciption", "Reciter: Salim Al Ruwaili");
-        arrayList.add(hashMap);
-
-        //Video-91 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
-        hashMap = new HashMap<>();
-        hashMap.put("vdo_id", "pGPB44-2k0w");
-        hashMap.put("vdo_title", "সূরা আশ শামস (الشمس) - আপনার অন্তর শীতল হতে বাধ্য।");
-        hashMap.put("vdo_desciption", "Reciter: Omar Hisham Al Arabi ");
-        arrayList.add(hashMap);
-
-        //Video-90 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
-        hashMap = new HashMap<>();
-        hashMap.put("vdo_id", "sj-yCENayOQ");
-        hashMap.put("vdo_title", "সূরা আল-বালাদ এর তেলাওয়াত।");
-        hashMap.put("vdo_desciption", "Reciter: Mishary Rashid Alafasy");
-        arrayList.add(hashMap);
-
-        //Video-89 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
-        hashMap = new HashMap<>();
-        hashMap.put("vdo_id", "IKoTBQWX0Lk");
-        hashMap.put("vdo_title", "সূরা আল ফজর / ফাজর এর সুরেলা এর তেলাওয়াত।");
-        hashMap.put("vdo_desciption", "Reciter: Muhammad Kamal Hashim");
-        arrayList.add(hashMap);
-
-        //Video-88 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
-        hashMap = new HashMap<>();
-        hashMap.put("vdo_id", "1QfW3WOhwxA");
-        hashMap.put("vdo_title", "সূরা আল গাশিয়াহ(الغاشية\u200E) - অন্তর প্রশান্তময় তেলাওয়াত।");
-        hashMap.put("vdo_desciption", "Reciter: Shamsul Haque");
-        arrayList.add(hashMap);
-
-        //Video-87 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
-        hashMap = new HashMap<>();
-        hashMap.put("vdo_id", "2y-_3co_Fr0");
-        hashMap.put("vdo_title", "সূরা আল আলা - অন্তর প্রশান্তময় তেলাওয়াত।");
-        hashMap.put("vdo_desciption", "Reciter: Abdullah Altun");
-        arrayList.add(hashMap);
-
-        //Video-86 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
-        hashMap = new HashMap<>();
-        hashMap.put("vdo_id", "bvs5iZ-cxjs");
-        hashMap.put("vdo_title", "সূরা আত তারিক ( الطّارق\u200E) | আবেগময় তেলাওয়াত।");
-        hashMap.put("vdo_desciption", "Reciter: Raad Mohammad Al Kurdi");
-        arrayList.add(hashMap);
-
-        //Video-85 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
-        hashMap = new HashMap<>();
-        hashMap.put("vdo_id", "ciGkpKtkOow");
-        hashMap.put("vdo_title", "সূরা বুরুজের অন্তর জুড়ানো তেলাওয়াত।");
-        hashMap.put("vdo_desciption", "Reciter: Salim Al Ruwaili");
-        arrayList.add(hashMap);
-
-        //Video-84 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
-        hashMap = new HashMap<>();
-        hashMap.put("vdo_id", "3zq0wZ3vaNQ");
-        hashMap.put("vdo_title", "সূরা আল ইন\u200Cশিকাক (الانشقاق\u200E) অন্তর জুড়ানো তেলাওয়াত।");
-        hashMap.put("vdo_desciption", "Reciter: Sekh Masud");
-        arrayList.add(hashMap);
-
-        //Video-83 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
-        hashMap = new HashMap<>();
-        hashMap.put("vdo_id", "hmOsBN3QZPE");
-        hashMap.put("vdo_title", "সূরা আত-তাতফিফ এর তেলাওয়াত।");
-        hashMap.put("vdo_desciption", "Reciter: Ahmad Al Shalabi");
-        arrayList.add(hashMap);
-
-        //Video-82 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
-        hashMap = new HashMap<>();
-        hashMap.put("vdo_id", "BlAlYgEo3GI");
-        hashMap.put("vdo_title", "অত্যন্ত সুরেলা কণ্ঠে সূরা ইনফিতার এর তিলাওয়াত।");
-        hashMap.put("vdo_desciption", "Reciter: Salah Mussaly");
-        arrayList.add(hashMap);
-
-        //Video-81 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
-        hashMap = new HashMap<>();
-        hashMap.put("vdo_id", "gzz0OmmlxOo");
-        hashMap.put("vdo_title", "সূরা আত তাকভীর ( التكوير ) এর তিলাওয়াত।");
-        hashMap.put("vdo_desciption", "Reciter: Omar Hisham Al Arabi ");
-        arrayList.add(hashMap);
-
-        //Video-80 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
-        hashMap = new HashMap<>();
-        hashMap.put("vdo_id", "XOQx-ioyOk4");
-        hashMap.put("vdo_title", "সুমধুর কণ্ঠে সূরা আবাসা এর তিলাওয়াত।");
-        hashMap.put("vdo_desciption", "Reciter: Muhammad Al Muqit");
-        arrayList.add(hashMap);
-
-        //Video-79 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
-        hashMap = new HashMap<>();
-        hashMap.put("vdo_id", "l6f-G_6z314");
-        hashMap.put("vdo_title", "সুমধুর কণ্ঠে সূরা আন-নাযিয়াত এর তিলাওয়াত।");
-        hashMap.put("vdo_desciption", "Reciter: Sheikh Noreen Muhamad Siddiq");
-        arrayList.add(hashMap);
-
-        //Video-78 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
-        hashMap = new HashMap<>();
-        hashMap.put("vdo_id", "DFKrzQDpwc8");
-        hashMap.put("vdo_title", "সূরা আন-নাবা (سورة النبإ) - আবেগময় কুরআন তিলাওয়াত।");
-        hashMap.put("vdo_desciption", "Reciter: Salah Mussaly");
-        arrayList.add(hashMap);
-
-        //Video-77 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
-        hashMap = new HashMap<>();
-        hashMap.put("vdo_id", "V5GoCCVpt0c");
-        hashMap.put("vdo_title", "সূরা মুরসালাত এর অন্তর শীতল করা কণ্ঠে তিলাওয়াত।");
-        hashMap.put("vdo_desciption", "Reciter: Omar Hisham Al Arabi");
-        arrayList.add(hashMap);
-
-        //Video-76 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
-        hashMap = new HashMap<>();
-        hashMap.put("vdo_id", "gYpMQmaDWQM");
-        hashMap.put("vdo_title", "হৃদয়গ্রাহী কণ্ঠে সূরা ইনসান / সূরা আদ দাহর এর অসাধারণ তিলাওয়াত।");
-        hashMap.put("vdo_desciption", "Reciter: Salim Al Ruwaili");
-        arrayList.add(hashMap);
-
-        //Video-75 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
-        hashMap = new HashMap<>();
-        hashMap.put("vdo_id", "SoDSL35yXZ0");
-        hashMap.put("vdo_title", "সূরা আল কিয়ামাহ - অশ্রু ধরে রাখতে পারবেন না (বিচার দিবসের বর্ণনা!)।");
-        hashMap.put("vdo_desciption", "Reciter: Idris Abkar");
-        arrayList.add(hashMap);
-
-        //Video-74 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
-        hashMap = new HashMap<>();
-        hashMap.put("vdo_id", "_RbffbB6Fzg");
-        hashMap.put("vdo_title", "সুরা আল মুদ্দাসসির এর অসাধারণ তিলাওয়াত।");
-        hashMap.put("vdo_desciption", "Reciter: Salim Al Ruwaili");
-        arrayList.add(hashMap);
-
-        //Video-73 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
-        hashMap = new HashMap<>();
-        hashMap.put("vdo_id", "uPRwl-wuO7A");
-        hashMap.put("vdo_title", "সূরা মুজাম্মিল(المزمل\u200E) এর অসাধারণ তিলাওয়াত।");
-        hashMap.put("vdo_desciption", "Reciter: Abdul Rahman Mosad");
-        arrayList.add(hashMap);
-
-        //Video-72 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
-        hashMap = new HashMap<>();
-        hashMap.put("vdo_id", "E289m4vCLBQ");
-        hashMap.put("vdo_title", "সূরা জিন এর অন্তর তৃপ্তকারী তিলাওয়াত।");
-        hashMap.put("vdo_desciption", "Reciter: Mahmud Huzaifa");
-        arrayList.add(hashMap);
-
-        //Video-71 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
-        hashMap = new HashMap<>();
-        hashMap.put("vdo_id", "ePt3HxKlw20");
-        hashMap.put("vdo_title", "সূরা নূহের (سورة نوح\u200E ) মন জুড়ানো তিলাওয়াত।");
-        hashMap.put("vdo_desciption", "Reciter: Muhammad Saleh Nafea");
-        arrayList.add(hashMap);
-
-        //Video-70 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
-        hashMap = new HashMap<>();
-        hashMap.put("vdo_id", "9BEg_p7nzfg");
-        hashMap.put("vdo_title", "হৃদয়বিগলিত কণ্ঠে সূরা মাআরিজ । আয়াত ৫-৩৫ তিলাওয়াত।");
-        hashMap.put("vdo_desciption", "Reciter: Hamza Boudib");
-        arrayList.add(hashMap);
-
-
-
-
-
-
-
-
-
-
-
-
-
         //Video-01 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
         hashMap = new HashMap<>();
-        hashMap.put("vdo_id", "KGUUWufvu6E");
-        hashMap.put("vdo_title", "সূরা মুলকের স্বর্গীয় কোরআন তেলাওয়াত।");
-        hashMap.put("vdo_desciption", "Reciter: Omar Hisham Al Arabi");
+        hashMap.put("vdo_id", "F51nclvGL0Y");
+        hashMap.put("vdo_title", "কিভাবে তওবা করলে আল্লাহ সকল গুনাহ মাফ করে দেবেন ।");
+        hashMap.put("vdo_desciption", "বক্তা: অধ্যাপক মোখতার আহমাদ");
         arrayList.add(hashMap);
 
         //Video-01 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
         hashMap = new HashMap<>();
-        hashMap.put("vdo_id", "JnX7Oc8LqD8");
-        hashMap.put("vdo_title", "সূরা আর রহমান (الرحمن) - মন জুড়ানো তেলাওয়াত।");
-        hashMap.put("vdo_desciption", "Reciter: Zain Abu Kautsar");
+        hashMap.put("vdo_id", "vBbBYG6K6Yw");
+        hashMap.put("vdo_title", "সমাজে প্রচলিত বিবাহ পদ্ধতি কতটুকু শরীয়াহ সম্মত ।");
+        hashMap.put("vdo_desciption", "বক্তা: অধ্যাপক মোখতার আহমাদ");
         arrayList.add(hashMap);
 
         //Video-01 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
         hashMap = new HashMap<>();
-        hashMap.put("vdo_id", "VLyktW15HXI");
-        hashMap.put("vdo_title", "অন্তর শীতল করা কণ্ঠে সূরা ইয়াসীন ( سورة يس)।");
-        hashMap.put("vdo_desciption", "Reciter: Omar Hisham Al Arabi");
+        hashMap.put("vdo_id", "WaPUGE0mlSI");
+        hashMap.put("vdo_title", "কোন মুসলিম কী ধর্ম নিরপক্ষতা ও জাতীয়তাবাদ সমর্থণ করতে পারে ।");
+        hashMap.put("vdo_desciption", "বক্তা: অধ্যাপক মোখতার আহমাদ");
         arrayList.add(hashMap);
 
         //Video-01 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
         hashMap = new HashMap<>();
-        hashMap.put("vdo_id", "hEjXkTP4XKg");
-        hashMap.put("vdo_title", "হৃদয় বিগলিত কণ্ঠে সূরা আত ত্বহা (طه\u200E) তেলাওয়াত।");
-        hashMap.put("vdo_desciption", "Reciter: Sherif Mostafa");
+        hashMap.put("vdo_id", "xRk9o3qBO6k");
+        hashMap.put("vdo_title", "ইসলামে কী রাজতন্ত্র হারাম ।");
+        hashMap.put("vdo_desciption", "বক্তা: অধ্যাপক মোখতার আহমাদ");
         arrayList.add(hashMap);
 
         //Video-01 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
         hashMap = new HashMap<>();
-        hashMap.put("vdo_id", "jNPhGaAcpSk");
-        hashMap.put("vdo_title", "সূরা দুহা এক অসম্ভব সুন্দর তেলাওয়াত।");
-        hashMap.put("vdo_desciption", "Reciter: Shamsul Haque");
+        hashMap.put("vdo_id", "qIAdtkhf1yg");
+        hashMap.put("vdo_title", "আমাদেরকে কুরআনের কাছেই ফিরে যেতে হবে ।");
+        hashMap.put("vdo_desciption", "বক্তা: অধ্যাপক মোখতার আহমাদ");
         arrayList.add(hashMap);
 
         //Video-01 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
         hashMap = new HashMap<>();
-        hashMap.put("vdo_id", "iTtAw7Fbv8o");
-        hashMap.put("vdo_title", "সূরা মাউন এক অসম্ভব সুন্দর তেলাওয়াত।");
-        hashMap.put("vdo_desciption", "Reciter: Shamsul Haque");
+        hashMap.put("vdo_id", "hQ1YziCuG4o");
+        hashMap.put("vdo_title", "খুৎবা কী বাংলায় না আরবিতে হবে ।");
+        hashMap.put("vdo_desciption", "বক্তা: অধ্যাপক মোখতার আহমাদ");
         arrayList.add(hashMap);
 
         //Video-01 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
         hashMap = new HashMap<>();
-        hashMap.put("vdo_id", "3zq0wZ3vaNQ");
-        hashMap.put("vdo_title", "সূরা আল ইন\u200Cশিকাক (الانشقاق\u200E) সুন্দর তেলাওয়াত।");
-        hashMap.put("vdo_desciption", "Reciter: Shamsul Haque");
+        hashMap.put("vdo_id", "skHTtkfASbk");
+        hashMap.put("vdo_title", "কোরআনের মুজিজা ।");
+        hashMap.put("vdo_desciption", "বক্তা: অধ্যাপক মোখতার আহমাদ");
+        arrayList.add(hashMap);
+
+        //Video-01 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "vmGf1oVWGnc");
+        hashMap.put("vdo_title", "যুবক, তোমার কি লজ্জা হয় না ।");
+        hashMap.put("vdo_desciption", "বক্তা: অধ্যাপক মোখতার আহমাদ");
+        arrayList.add(hashMap);
+
+        //Video-01 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "J67xKhJNPuA");
+        hashMap.put("vdo_title", "জুমুআর খুতবাহ | শয়তানকে পরাজিত করুন ।");
+        hashMap.put("vdo_desciption", "বক্তা: অধ্যাপক মোখতার আহমাদ");
+        arrayList.add(hashMap);
+
+        //Video-01 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "m71f9i7cqL8");
+        hashMap.put("vdo_title", "যুব সমাজের অবক্ষয় ও উত্তরণের উপায় ।");
+        hashMap.put("vdo_desciption", "বক্তা: অধ্যাপক মোখতার আহমাদ");
+        arrayList.add(hashMap);
+
+        //Video-01 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "KHXUJUABD3M");
+        hashMap.put("vdo_title", "শাসকদের প্রতি নসিহত ।");
+        hashMap.put("vdo_desciption", "বক্তা: অধ্যাপক মোখতার আহমাদ");
+        arrayList.add(hashMap);
+
+        //Video-01 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "76go8D_B96I");
+        hashMap.put("vdo_title", "পরিবার গঠনে রাসূল (সাঃ) এর ভুমিকা ও আমদের শিক্ষা ।");
+        hashMap.put("vdo_desciption", "বক্তা: অধ্যাপক মোখতার আহমাদ");
+        arrayList.add(hashMap);
+
+        //Video-01 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "nkFNbdKV_dc");
+        hashMap.put("vdo_title", "আপনি কি সত্যিকারের পুরুষ? জুমুআর খুতবাহ ।");
+        hashMap.put("vdo_desciption", "বক্তা: অধ্যাপক মোখতার আহমাদ");
+        arrayList.add(hashMap);
+
+        //Video-01 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "UxQ48M8ICn8");
+        hashMap.put("vdo_title", "আপনার জীবনের লক্ষ্য উদ্দেশ্য কি হবে ।");
+        hashMap.put("vdo_desciption", "বক্তা: অধ্যাপক মোখতার আহমাদ");
+        arrayList.add(hashMap);
+
+        //Video-01 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "w06EZ00An64");
+        hashMap.put("vdo_title", "আপনার দ্বীনদারিত্ব যেন আপনাকে অহংকারী না বানায় ।");
+        hashMap.put("vdo_desciption", "বক্তা: অধ্যাপক মোখতার আহমাদ");
+        arrayList.add(hashMap);
+
+        //Video-01 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "Cd4f9OMZpOA");
+        hashMap.put("vdo_title", "কেমন ছিলেন রাসূল (সাঃ) | সীরাহ কনফারেন্স ।");
+        hashMap.put("vdo_desciption", "বক্তা: অধ্যাপক মোখতার আহমাদ");
+        arrayList.add(hashMap);
+
+        //Video-01 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "Pc4psi8bQkU");
+        hashMap.put("vdo_title", "আল্লাহর ভয় | Jumar Khudbah ।");
+        hashMap.put("vdo_desciption", "বক্তা: অধ্যাপক মোখতার আহমাদ");
+        arrayList.add(hashMap);
+
+        //Video-01 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "cwDZHTC0VtI");
+        hashMap.put("vdo_title", "কুমিল্লায় আলোচনা করলেন ।");
+        hashMap.put("vdo_desciption", "বক্তা: অধ্যাপক মোখতার আহমাদ");
+        arrayList.add(hashMap);
+
+        //Video-01 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "gEaYVdbskDQ");
+        hashMap.put("vdo_title", "জুমুআর খুৎবাহ | বারাকাহ ।");
+        hashMap.put("vdo_desciption", "বক্তা: অধ্যাপক মোখতার আহমাদ");
+        arrayList.add(hashMap);
+
+        //Video-01 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "iEWtMJGZ0zI");
+        hashMap.put("vdo_title", "মুসলিম উম্মাহর সমস্যা ।");
+        hashMap.put("vdo_desciption", "বক্তা: অধ্যাপক মোখতার আহমাদ");
+        arrayList.add(hashMap);
+
+        //Video-01 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "omq9qHdmpKI");
+        hashMap.put("vdo_title", "আল্লাহর প্রতি কৃতজ্ঞতা ও তার অনুভূতি ।");
+        hashMap.put("vdo_desciption", "বক্তা: অধ্যাপক মোখতার আহমাদ");
+        arrayList.add(hashMap);
+
+        //Video-01 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "lqFRQqfd1Zo");
+        hashMap.put("vdo_title", "আকিদার পাশাপাশি আখলাকেও সুন্দর করতে হবে ।");
+        hashMap.put("vdo_desciption", "বক্তা: অধ্যাপক মোখতার আহমাদ");
+        arrayList.add(hashMap);
+
+        //Video-01 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "NJ1igmHJd4Y");
+        hashMap.put("vdo_title", "উদ্বোধনী অনুষ্ঠান কোরআনের ভাষা ভাষাতাত্ত্বিক মোজেজা ।");
+        hashMap.put("vdo_desciption", "বক্তা: অধ্যাপক মোখতার আহমাদ");
+        arrayList.add(hashMap);
+
+        //Video-01 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "WhgSfeTyETM");
+        hashMap.put("vdo_title", "কৃষিতে উদ্ভাবন; ইসলাম কি বলে ।");
+        hashMap.put("vdo_desciption", "বক্তা: অধ্যাপক মোখতার আহমাদ");
+        arrayList.add(hashMap);
+
+        //Video-01 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "wD2YZyH9GuM");
+        hashMap.put("vdo_title", "প্রত্যেক নারীর এই বক্তব্যটি শুনা উচিৎ ।");
+        hashMap.put("vdo_desciption", "বক্তা: অধ্যাপক মোখতার আহমাদ");
+        arrayList.add(hashMap);
+
+        //Video-01 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "i5W2L-ZclFM");
+        hashMap.put("vdo_title", "সূরা ফাতিহার বিস্ময়কর সাদৃশ্য ।");
+        hashMap.put("vdo_desciption", "বক্তা: অধ্যাপক মোখতার আহমাদ");
+        arrayList.add(hashMap);
+
+        //Video-01 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "xznwa-CMDBc");
+        hashMap.put("vdo_title", "আপনার দ্বীনিদারি পরিমাপের যন্ত্রের নাম কি জানেন? একটু মেপে নিন তো ।");
+        hashMap.put("vdo_desciption", "বক্তা: অধ্যাপক মোখতার আহমাদ");
+        arrayList.add(hashMap);
+
+        //Video-01 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "mOHCUm83ckw");
+        hashMap.put("vdo_title", "রাসূলুল্লাহ সা এর রাষ্ট্রনীতি ও দাওয়াহ কৌশল ।");
+        hashMap.put("vdo_desciption", "বক্তা: অধ্যাপক মোখতার আহমাদ");
+        arrayList.add(hashMap);
+
+        //Video-01 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "jRJDaowr4-A");
+        hashMap.put("vdo_title", "সাম্প্রদায়িক সম্প্রীতির ব্যাপারে রাসূল (সাঃ) এর মনোভাব ।");
+        hashMap.put("vdo_desciption", "বক্তা: অধ্যাপক মোখতার আহমাদ");
+        arrayList.add(hashMap);
+
+        //Video-01 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "ouIeYJFAxj0");
+        hashMap.put("vdo_title", "আপনার সন্তানকে দ্বীনের শিক্ষা দিন ।");
+        hashMap.put("vdo_desciption", "বক্তা: অধ্যাপক মোখতার আহমাদ");
+        arrayList.add(hashMap);
+
+        //Video-01 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "lo4jhX-Ka9w");
+        hashMap.put("vdo_title", "জান্নাত নিয়ে সেরা বক্তব্য প্রফেসর মোখতার আহমাদ ।");
+        hashMap.put("vdo_desciption", "বক্তা: অধ্যাপক মোখতার আহমাদ");
+        arrayList.add(hashMap);
+
+        //Video-01 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "KOdlq3nRhCU");
+        hashMap.put("vdo_title", "সম্পূর্ণ জুমু’য়ার খুৎবাহ আল্লাহ ভীতি ।");
+        hashMap.put("vdo_desciption", "বক্তা: অধ্যাপক মোখতার আহমাদ");
+        arrayList.add(hashMap);
+
+        //Video-01 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "eysf8fQB5mk");
+        hashMap.put("vdo_title", "কিভাবে আপনার সন্তানদের আলেম/আলেমা বানাবেন?");
+        hashMap.put("vdo_desciption", "বক্তা: অধ্যাপক মোখতার আহমাদ");
+        arrayList.add(hashMap);
+
+        //Video-01 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "iSJOFRhqe1I");
+        hashMap.put("vdo_title", "আল্লাহর ভালোবাসা পেতে চান?");
+        hashMap.put("vdo_desciption", "বক্তা: অধ্যাপক মোখতার আহমাদ");
+        arrayList.add(hashMap);
+
+        //Video-01 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "cSIt4wPXs_8");
+        hashMap.put("vdo_title", "গুরুত্বপূর্ণ প্রশ্নোত্তর | না শুনলে উত্তরগুলো অজানাই থেকে যাবে ।");
+        hashMap.put("vdo_desciption", "বক্তা: অধ্যাপক মোখতার আহমাদ");
+        arrayList.add(hashMap);
+
+        //Video-01 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "vdyEzXkG_C4");
+        hashMap.put("vdo_title", "সূরা ইউসুফ থেকে যুবকদের জন্য শিক্ষা ।");
+        hashMap.put("vdo_desciption", "বক্তা: অধ্যাপক মোখতার আহমাদ");
+        arrayList.add(hashMap);
+
+        //Video-01 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "A4iz-edPm30");
+        hashMap.put("vdo_title", "সুন্নতে মোড়া জীবন ।");
+        hashMap.put("vdo_desciption", "বক্তা: অধ্যাপক মোখতার আহমাদ");
+        arrayList.add(hashMap);
+
+        //Video-01 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "v4YxDVOrVzQ");
+        hashMap.put("vdo_title", "কুরআন নিয়ে অসাধারণ কিছু কথা ।");
+        hashMap.put("vdo_desciption", "বক্তা: অধ্যাপক মোখতার আহমাদ");
+        arrayList.add(hashMap);
+
+        //Video-01 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "a9w5VPabwvU");
+        hashMap.put("vdo_title", "সমসাময়িক বিশ্বে একজন প্রকৃত মুসলিমের প্রতিবিম্ব কেমন হওয়া উচিৎ ।");
+        hashMap.put("vdo_desciption", "বক্তা: অধ্যাপক মোখতার আহমাদ");
+        arrayList.add(hashMap);
+
+        //Video-01 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "jf9viKiCjII");
+        hashMap.put("vdo_title", "সুন্নাত পদ্ধতিতে বিয়ে পড়াচ্ছেন শায়খ প্রফেসর মোখতার আহমাদ ।");
+        hashMap.put("vdo_desciption", "বক্তা: অধ্যাপক মোখতার আহমাদ");
+        arrayList.add(hashMap);
+
+        //Video-01 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "_6F9QTTW6tc");
+        hashMap.put("vdo_title", "কিভাবে সন্তানদের মাঝে আত্মসম্মানবোধ তৈরি করবেন?");
+        hashMap.put("vdo_desciption", "বক্তা: অধ্যাপক মোখতার আহমাদ");
+        arrayList.add(hashMap);
+
+        //Video-01 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "LoDu_wps9TU");
+        hashMap.put("vdo_title", "সূরা কাহফ: গুহাবাসী, আধুনিক গর্তময় জীবন ও দাজ্জাল ভাবনা");
+        hashMap.put("vdo_desciption", "বক্তা: অধ্যাপক মোখতার আহমাদ");
         arrayList.add(hashMap);
 
 
@@ -410,7 +384,7 @@ public class QuranTelawatActivity extends YouTubeBaseActivity implements YouTube
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_quran_telawat);
+        setContentView(R.layout.activity_mokhter_ahmad);
 
 
         MobileAds.initialize(this, new OnInitializationCompleteListener() {
@@ -436,7 +410,7 @@ public class QuranTelawatActivity extends YouTubeBaseActivity implements YouTube
 
 
         //init Youtube Player View
-        youTubePlayerView.initialize("ABCD", QuranTelawatActivity.this);
+        youTubePlayerView.initialize("ABCD", MokhterAhmadActivity.this);
         myPlaybackEventListener = new MyPlaybackEventListener();
 
 
@@ -492,11 +466,11 @@ public class QuranTelawatActivity extends YouTubeBaseActivity implements YouTube
                     String tag = v.getTag().toString();
                     if (tag.contains("PLAYING")){
                         if (myYoutubePlayer!=null) myYoutubePlayer.pause();
-                        else Toast.makeText(QuranTelawatActivity.this, "Please wait...", Toast.LENGTH_LONG).show();
+                        else Toast.makeText(MokhterAhmadActivity.this, "Please wait...", Toast.LENGTH_LONG).show();
 
                     }else if (tag.contains("PAUSED")){
                         if (myYoutubePlayer!=null) myYoutubePlayer.play();
-                        else Toast.makeText(QuranTelawatActivity.this, "Please wait...", Toast.LENGTH_LONG).show();
+                        else Toast.makeText(MokhterAhmadActivity.this, "Please wait...", Toast.LENGTH_LONG).show();
                     }
                 }
 
@@ -530,7 +504,7 @@ public class QuranTelawatActivity extends YouTubeBaseActivity implements YouTube
 
     private void makeListView(){
 
-        ListView listView = new ListView( QuranTelawatActivity.this);
+        ListView listView = new ListView( MokhterAhmadActivity.this);
         RelativeLayout.LayoutParams layoutParams = new RelativeLayout.LayoutParams(150, 10);
         layoutParams.height = ViewGroup.LayoutParams.WRAP_CONTENT;
         layoutParams.width = ViewGroup.LayoutParams.MATCH_PARENT;
@@ -551,7 +525,7 @@ public class QuranTelawatActivity extends YouTubeBaseActivity implements YouTube
             e.printStackTrace();
         }
 
-        layoutContainer.startAnimation(AnimationUtils.loadAnimation(QuranTelawatActivity.this, R.anim.fade_in));
+        layoutContainer.startAnimation(AnimationUtils.loadAnimation(MokhterAhmadActivity.this, R.anim.fade_in));
 
     }
 
@@ -659,7 +633,7 @@ public class QuranTelawatActivity extends YouTubeBaseActivity implements YouTube
         private LayoutInflater inflater;
 
         public MyAdapter(){
-            this.inflater = (LayoutInflater) QuranTelawatActivity.this.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+            this.inflater = (LayoutInflater) MokhterAhmadActivity.this.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         }
 
         @Override
@@ -719,11 +693,6 @@ public class QuranTelawatActivity extends YouTubeBaseActivity implements YouTube
                         //Show Fullscreen ad
                         showInterstitial();
                     }
-
-
-
-
-
                 }
             });
 
@@ -741,12 +710,12 @@ public class QuranTelawatActivity extends YouTubeBaseActivity implements YouTube
 
         if(myYoutubePlayer!=null){
             layPlayer.setVisibility(View.VISIBLE);
-            layPlayer.startAnimation(AnimationUtils.loadAnimation(QuranTelawatActivity.this, R.anim.fade_in));
+            layPlayer.startAnimation(AnimationUtils.loadAnimation(MokhterAhmadActivity.this, R.anim.fade_in));
             myYoutubePlayer.loadVideo(video_id);
             myYoutubePlayer.play();
             playingVideo = true;
         }else{
-            Toast.makeText(QuranTelawatActivity.this, "Please wait...", Toast.LENGTH_LONG).show();
+            Toast.makeText(MokhterAhmadActivity.this, "Please wait...", Toast.LENGTH_LONG).show();
         }
     }
     //================================================
@@ -887,7 +856,7 @@ public class QuranTelawatActivity extends YouTubeBaseActivity implements YouTube
             String vdo_id = hashMap.get("vdo_id");
             playVideo(vdo_id);
         }else{
-            Toast.makeText(QuranTelawatActivity.this, "Playing the first video", Toast.LENGTH_LONG).show();
+            Toast.makeText(MokhterAhmadActivity.this, "Playing the first video", Toast.LENGTH_LONG).show();
         }
 
     }

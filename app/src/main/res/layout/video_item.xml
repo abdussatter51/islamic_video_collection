@@ -63,6 +63,7 @@
                 android:id="@+id/tvTitle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:justificationMode="none"
                 android:maxLines="2"
                 android:text="Cafe De Anatolia - Astral Souls Exclusive For Ethno World 2021"
                 android:textColor="@color/color_700"

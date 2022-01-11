@@ -6,14 +6,75 @@
     android:layout_height="match_parent"
     android:background="@color/white"
     tools:context=".MainActivity">
+    <!-- Cover Section Starts-->
+    <RelativeLayout
+        android:id="@+id/layoutCoverSection"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        >
+
+        <io.github.florent37.shapeofview.shapes.BubbleView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:arrow_posititon_percent="0.5"
+            app:shape_bubble_arrowHeight="30dp"
+            app:shape_bubble_arrowPosition="bottom"
+            app:shape_bubble_arrowWidth="80dp"
+            app:shape_bubble_borderRadius="0dp">
+
+
+            <!-- YOUR CONTENT -->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:foreground="#88000000"
+                android:scaleType="centerCrop"
+                android:src="@drawable/cover" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="center"
+                android:layout_marginBottom="15dp"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="ইসলামিক ভিডিও"
+                    android:textColor="#FFFFFF"
+                    android:textSize="35sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:gravity="center"
+                    android:text="Varieties Islamic Video Collection"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp"
+                    android:textStyle="normal" />
+
+            </LinearLayout>
+
+        </io.github.florent37.shapeofview.shapes.BubbleView>
+
+
+    </RelativeLayout>
+    <!-- Cover Section ENDS ####################### -->
 
     <ScrollView
+        android:id="@+id/layoutScrollView"
+        android:layout_below="@+id/layoutCoverSection"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_alignParentTop="true"
+        android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:visibility="visible"
-
         >
 
         <!-- This layout will contain items by JAVA programmatically -->
@@ -22,73 +83,14 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <!-- Cover Section Starts-->
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="200dp"
-                android:layout_marginBottom="10dp">
-
-                <io.github.florent37.shapeofview.shapes.BubbleView
-                    android:layout_width="match_parent"
-                    android:layout_height="200dp"
-                    app:arrow_posititon_percent="0.5"
-                    app:shape_bubble_arrowHeight="30dp"
-                    app:shape_bubble_arrowPosition="bottom"
-                    app:shape_bubble_arrowWidth="50dp"
-                    app:shape_bubble_borderRadius="0dp">
-
-
-                    <!-- YOUR CONTENT -->
-                    <ImageView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:foreground="#88000000"
-                        android:scaleType="centerCrop"
-                        android:src="@drawable/cover" />
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_alignParentLeft="true"
-                        android:layout_alignParentTop="true"
-                        android:layout_gravity="center"
-                        android:layout_marginBottom="15dp"
-                        android:orientation="vertical"
-                        android:padding="10dp">
-
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:gravity="center"
-                            android:text="ইসলামিক ভিডিও"
-                            android:textColor="#FFFFFF"
-                            android:textSize="35sp"
-                            android:textStyle="bold" />
-
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginLeft="5dp"
-                            android:gravity="center"
-                            android:text="Varieties Islamic Video Collection"
-                            android:textColor="#FFFFFF"
-                            android:textSize="18sp"
-                            android:textStyle="normal" />
-
-                    </LinearLayout>
-
-                </io.github.florent37.shapeofview.shapes.BubbleView>
-
-
-            </RelativeLayout>
-            <!-- Cover Section ENDS ####################### -->
-
             <!--            Fist Row-->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="0dp"
                 android:orientation="horizontal"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
                 android:weightSum="2">
 
                 <LinearLayout
@@ -149,10 +151,150 @@
 
 
             </LinearLayout>
+
             <!--            Second Row-->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="0dp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <LinearLayout
+                    android:id="@+id/layoutAbuTaha"
+                    style="@style/MainActivityLayoutStyle"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <io.github.florent37.shapeofview.shapes.CircleView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:elevation="4dp"
+                        app:shape_circle_borderColor="@color/teal_700"
+                        app:shape_circle_borderWidth="3dp">
+                        <!-- YOUR CONTENT -->
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/abu_taha" />
+                    </io.github.florent37.shapeofview.shapes.CircleView>
+
+                    <TextView
+                        style="@style/HomepageItemTextStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Abu Toha Muhammad Adnan Lecture" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/layoutMokhteAhmad"
+                    style="@style/MainActivityLayoutStyle"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <io.github.florent37.shapeofview.shapes.CircleView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:elevation="4dp"
+                        app:shape_circle_borderColor="@color/teal_700"
+                        app:shape_circle_borderWidth="3dp">
+                        <!-- YOUR CONTENT -->
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/mokhter_ahmad" />
+                    </io.github.florent37.shapeofview.shapes.CircleView>
+
+                    <TextView
+                        style="@style/HomepageItemTextStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Professor Mokhter Ahmad" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+            <!--            Second Row-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="0dp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <LinearLayout
+                    android:id="@+id/layoutMizanurRahman"
+                    style="@style/MainActivityLayoutStyle"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <io.github.florent37.shapeofview.shapes.CircleView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:elevation="4dp"
+                        app:shape_circle_borderColor="@color/teal_700"
+                        app:shape_circle_borderWidth="3dp">
+                        <!-- YOUR CONTENT -->
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/mizanur_rahman" />
+                    </io.github.florent37.shapeofview.shapes.CircleView>
+
+                    <TextView
+                        style="@style/HomepageItemTextStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Mizanur Rahman Azhari Lecture" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/layoutMujaffarBinMohsin"
+                    style="@style/MainActivityLayoutStyle"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <io.github.florent37.shapeofview.shapes.CircleView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:elevation="4dp"
+                        app:shape_circle_borderColor="@color/teal_700"
+                        app:shape_circle_borderWidth="3dp">
+                        <!-- YOUR CONTENT -->
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/mujaffar_bin_mohsin" />
+                    </io.github.florent37.shapeofview.shapes.CircleView>
+
+                    <TextView
+                        style="@style/HomepageItemTextStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Shaikh Mujaffar Bin Mohsin" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <!--            Third Row-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
                 android:layout_marginBottom="0dp"
                 android:orientation="horizontal"
                 android:weightSum="2">
@@ -215,10 +357,82 @@
 
 
             </LinearLayout>
-            <!--            Third Row-->
+
+            <!--            Fourth Row-->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="0dp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <LinearLayout
+                    android:id="@+id/layoutProfetStroy"
+                    style="@style/MainActivityLayoutStyle"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <io.github.florent37.shapeofview.shapes.CircleView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:elevation="4dp"
+                        app:shape_circle_borderColor="@color/teal_700"
+                        app:shape_circle_borderWidth="3dp">
+                        <!-- YOUR CONTENT -->
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/prophet_story" />
+                    </io.github.florent37.shapeofview.shapes.CircleView>
+
+                    <TextView
+                        style="@style/HomepageItemTextStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Prophet Story in Bangla" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/layoutProfetStroyCarton"
+                    style="@style/MainActivityLayoutStyle"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <io.github.florent37.shapeofview.shapes.CircleView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:elevation="4dp"
+                        app:shape_circle_borderColor="@color/teal_700"
+                        app:shape_circle_borderWidth="3dp">
+                        <!-- YOUR CONTENT -->
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/prophet_story_carton" />
+                    </io.github.florent37.shapeofview.shapes.CircleView>
+
+                    <TextView
+                        style="@style/HomepageItemTextStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Prophet Story Carton in Bangla" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <!--            Fifth Row-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
                 android:layout_marginBottom="0dp"
                 android:orientation="horizontal"
                 android:weightSum="2">
@@ -280,10 +494,13 @@
                 </LinearLayout>
 
             </LinearLayout>
-            <!--            Fourth Row-->
+
+            <!--            Sixth Row-->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
                 android:layout_marginBottom="0dp"
                 android:orientation="horizontal"
                 android:weightSum="2">
@@ -313,11 +530,10 @@
                         style="@style/HomepageItemTextStyle"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Islamic Carton Video Bangla" />
+                        android:text="Carton Video Bangla Dubbing" />
                 </LinearLayout>
-
                 <LinearLayout
-                    android:id="@+id/layoutBanglaSong"
+                    android:id="@+id/layoutIslamicCartonEnglish"
                     style="@style/MainActivityLayoutStyle"
                     android:layout_width="0dp"
                     android:layout_weight="1"
@@ -334,22 +550,26 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:scaleType="fitXY"
-                            android:src="@drawable/gojol" />
+                            android:src="@drawable/islamic_carton" />
                     </io.github.florent37.shapeofview.shapes.CircleView>
 
                     <TextView
                         style="@style/HomepageItemTextStyle"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Bangla Islamic Video Song" />
+                        android:text="Carton Video Collection in English" />
                 </LinearLayout>
+
+
 
             </LinearLayout>
 
-            <!--            Fifth Row-->
+            <!--            Seventh Row-->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
                 android:layout_marginBottom="0dp"
                 android:orientation="horizontal"
                 android:weightSum="2">
@@ -379,11 +599,51 @@
                         style="@style/HomepageItemTextStyle"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Quran Recitation" />
+                        android:text="Quran Recitation With Bangla Subtitle" />
                 </LinearLayout>
 
                 <LinearLayout
                     android:id="@+id/layoutQuranTelawatBangla"
+                    style="@style/MainActivityLayoutStyle"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <io.github.florent37.shapeofview.shapes.CircleView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:elevation="4dp"
+                        app:shape_circle_borderColor="@color/teal_700"
+                        app:shape_circle_borderWidth="3dp">
+                        <!-- YOUR CONTENT -->
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/quran_bangla" />
+                    </io.github.florent37.shapeofview.shapes.CircleView>
+
+                    <TextView
+                        style="@style/HomepageItemTextStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Quran Recitation with Bangla Meaning" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!--            Eighth Row-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="0dp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <LinearLayout
+                    android:id="@+id/layoutBanglaSong"
                     style="@style/MainActivityLayoutStyle"
                     android:layout_width="0dp"
                     android:layout_weight="1"
@@ -407,7 +667,102 @@
                         style="@style/HomepageItemTextStyle"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Bangla Islamic Video Song" />
+                        android:text="Bangla Islamic Song Video" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/layoutEnglishSong"
+                    style="@style/MainActivityLayoutStyle"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <io.github.florent37.shapeofview.shapes.CircleView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:elevation="4dp"
+                        app:shape_circle_borderColor="@color/teal_700"
+                        app:shape_circle_borderWidth="3dp">
+                        <!-- YOUR CONTENT -->
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/english_song" />
+                    </io.github.florent37.shapeofview.shapes.CircleView>
+
+                    <TextView
+                        style="@style/HomepageItemTextStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="English Islamic Song Video" />
+                </LinearLayout>
+
+            </LinearLayout>
+            <!--            Ninth Row-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="0dp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <LinearLayout
+                    android:id="@+id/layoutArabicSong"
+                    style="@style/MainActivityLayoutStyle"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <io.github.florent37.shapeofview.shapes.CircleView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:elevation="4dp"
+                        app:shape_circle_borderColor="@color/teal_700"
+                        app:shape_circle_borderWidth="3dp">
+                        <!-- YOUR CONTENT -->
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/arabic_song" />
+                    </io.github.florent37.shapeofview.shapes.CircleView>
+
+                    <TextView
+                        style="@style/HomepageItemTextStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Arabic Islamic Song Video" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/layoutUrduSong"
+                    style="@style/MainActivityLayoutStyle"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <io.github.florent37.shapeofview.shapes.CircleView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:elevation="4dp"
+                        app:shape_circle_borderColor="@color/teal_700"
+                        app:shape_circle_borderWidth="3dp">
+                        <!-- YOUR CONTENT -->
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/urdu_song" />
+                    </io.github.florent37.shapeofview.shapes.CircleView>
+
+                    <TextView
+                        style="@style/HomepageItemTextStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Urdu Islamic Song Video" />
                 </LinearLayout>
 
             </LinearLayout>
@@ -416,20 +771,20 @@
         </LinearLayout>
     </ScrollView>
 
-
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/fabButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginRight="12dp"
-        android:layout_marginBottom="10dp"
-        android:clickable="true"
-        android:foreground="?attr/selectableItemBackgroundBorderless"
-        android:visibility="visible"
-        app:backgroundTint="@color/color_700"
-        app:srcCompat="@drawable/share_icon"
-        tools:ignore="SpeakableTextPresentCheck" />
+<!--App Share Icon-->
+<!--    <com.google.android.material.floatingactionbutton.FloatingActionButton-->
+<!--        android:id="@+id/fabButton"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentRight="true"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginRight="12dp"-->
+<!--        android:layout_marginBottom="10dp"-->
+<!--        android:clickable="true"-->
+<!--        android:foreground="?attr/selectableItemBackgroundBorderless"-->
+<!--        android:visibility="visible"-->
+<!--        app:backgroundTint="@color/color_700"-->
+<!--        app:srcCompat="@drawable/share_icon"-->
+<!--        tools:ignore="SpeakableTextPresentCheck" />-->
 
 </RelativeLayout>

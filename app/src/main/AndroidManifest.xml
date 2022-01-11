@@ -4,7 +4,9 @@
     package="com.abdussatter.islamicvideo">
 
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- Using for Android 11.0 or higher | Youtube API acess -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <!--<uses-permission android:name="android.permission.SEND_SMS" />-->
     <queries>
         <package android:name="com.google.android.youtube" />
     </queries>
@@ -17,7 +19,39 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/ThemeHome">
-
+        <activity
+            android:name=".MokhterAhmadActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AbuTahaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProphetStoryCartonActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProphetStoryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".IslamiEnglishCartonActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UrduSongActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ArabicSongActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EnglishSongActivity"
+            android:exported="false" />
+        <activity
+            android:name=".QuranTelawatBanglaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MujaffarBinMohsinActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MizanurRahmanActivity"
+            android:exported="false" />
         <activity
             android:name=".QuranTelawatActivity"
             android:exported="false" />
@@ -50,13 +84,18 @@
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
+<!--                new action added-->
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
             </intent-filter>
         </activity>
+
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
             android:value="@string/admob_APP_ID" />
+
     </application>
+
+
 
 </manifest>

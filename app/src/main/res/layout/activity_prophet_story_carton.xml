@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".IslamiCartonActivity"
+    tools:context=".ProphetStoryCartonActivity"
     android:background="#FFFFFF"
     android:id="@+id/_rootLay"
     >
@@ -44,15 +44,14 @@
                     <ImageView
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:scaleType="centerCrop"
-                        android:src="@drawable/carton" />
-
+                        android:scaleType="fitXY"
+                        android:src="@drawable/prophet_story_carton" />
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_alignParentLeft="true"
                         android:layout_alignParentTop="true"
-                        android:background="#5E000000"
+                        android:background="#B2000000"
                         android:orientation="vertical"
                         android:padding="10dp">
 
@@ -60,7 +59,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:gravity="center"
-                            android:text="ইসলামি কার্টুন বাংলা ডাবিং"
+                            android:text="নবী কাহিনী কার্টুন"
                             android:textColor="#FFFFFF"
                             android:textSize="28sp"
                             android:textStyle="bold" />
@@ -69,7 +68,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="5dp"
-                            android:text="Islami Carton Collection"
+                            android:text="Prophet Story Carton in Bangla"
                             android:gravity="center"
                             android:textColor="#FFFFFF"
                             android:textSize="18sp"

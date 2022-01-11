@@ -44,7 +44,7 @@ import java.util.Locale;
 import java.util.Random;
 import java.util.TimeZone;
 
-public class MahmudKashemActivity extends YouTubeBaseActivity implements YouTubePlayer.OnInitializedListener {
+public class IslamiEnglishCartonActivity extends YouTubeBaseActivity implements YouTubePlayer.OnInitializedListener {
 
         /*
     >>Source Code provided by
@@ -61,127 +61,104 @@ public class MahmudKashemActivity extends YouTubeBaseActivity implements YouTube
         //Video Details Here Here
 
 
-        //Video-17 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
-        hashMap = new HashMap<>();
-        hashMap.put("vdo_id", "4UGDT1PxQGc");
-        hashMap.put("vdo_title", "অন্তর ও জবানকে পাপ থেকে বাচার উপায় ।");
-        hashMap.put("vdo_desciption", "বক্তা: মাহমুদ বিন ক্বাসিম");
-        arrayList.add(hashMap);
 
-        //Video-16 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        //Video-01 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
         hashMap = new HashMap<>();
-        hashMap.put("vdo_id", "ND1_4LeOlVs");
-        hashMap.put("vdo_title", "মিলাদুন নাবী এবং এমন যে কোনো দিবস পালনের ক্ষেত্রে ইসলামের মূলনীতি ।");
-        hashMap.put("vdo_desciption", "বক্তা: মাহমুদ বিন ক্বাসিম");
-        arrayList.add(hashMap);
-
-        //Video-15 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
-        hashMap = new HashMap<>();
-        hashMap.put("vdo_id", "UBp6gbfR9vo");
-        hashMap.put("vdo_title", "আমাদেরকে আমাদের কর্মগুলি নিয়ে ভেবে দেখা উচিৎ ।");
-        hashMap.put("vdo_desciption", "বক্তা: মাহমুদ বিন ক্বাসিম");
-        arrayList.add(hashMap);
-
-        //Video-14 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
-        hashMap = new HashMap<>();
-        hashMap.put("vdo_id", "_DtQwwUP4kE");
-        hashMap.put("vdo_title", "জীবনের আসল লক্ষ্য হতে হবে জান্নাত । প্রতিদিনের কাজ হতে হবে জান্নাত কামনা করা জাহান্নাম থেকে মুক্তি চাওয়া ।");
-        hashMap.put("vdo_desciption", "বক্তা: মাহমুদ বিন ক্বাসিম");
-        arrayList.add(hashMap);
-
-        //Video-13 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
-        hashMap = new HashMap<>();
-        hashMap.put("vdo_id", "FhJGpIJQ2p4");
-        hashMap.put("vdo_title", "আপনার বাসস্থান বলে দিচ্ছে যে আপনি ১জন দুনিয়াদার ব্যক্তি ।");
-        hashMap.put("vdo_desciption", "বক্তা: মাহমুদ বিন ক্বাসিম");
-        arrayList.add(hashMap);
-
-        //Video-12 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
-        hashMap = new HashMap<>();
-        hashMap.put("vdo_id", "OwIKT-gOKHQ");
-        hashMap.put("vdo_title", "আমরা দুনিয়ার দিকে ঝুকে গেছি, দুনিয়ামুখি হওয়া থেকে বাচতে হলে এভাবে চিন্তা করুন ।");
-        hashMap.put("vdo_desciption", "বক্তা: মাহমুদ বিন ক্বাসিম");
-        arrayList.add(hashMap);
-
-        //Video-11 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
-        hashMap = new HashMap<>();
-        hashMap.put("vdo_id", "cpKPDbAlOXQ");
-        hashMap.put("vdo_title", "আখলাক মানে কি শুধু ১টি গুণ !! আখলাক্ব মানে প্রত্যেকের স্বভাব ।");
-        hashMap.put("vdo_desciption", "বক্তা: মাহমুদ বিন ক্বাসিম");
-        arrayList.add(hashMap);
-
-        //Video-10 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
-        hashMap = new HashMap<>();
-        hashMap.put("vdo_id", "32jnZrSNkE8");
-        hashMap.put("vdo_title", "অন্তর ভালো হলে কি লাভ আর মন্দ হলে কি ক্ষতি ।");
-        hashMap.put("vdo_desciption", "বক্তা: মাহমুদ বিন ক্বাসিম");
-        arrayList.add(hashMap);
-
-        //Video-09 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
-        hashMap = new HashMap<>();
-        hashMap.put("vdo_id", "KbNspFdzGao");
-        hashMap.put("vdo_title", "ব্যাপক অর্থবোধক দোয়ার ২য় পর্ব, নিরাপত্তা কামনা করা ।");
-        hashMap.put("vdo_desciption", "বক্তা: মাহমুদ বিন ক্বাসিম");
-        arrayList.add(hashMap);
-
-        //Video-08 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
-        hashMap = new HashMap<>();
-        hashMap.put("vdo_id", "vQjNTF3Mm7k");
-        hashMap.put("vdo_title", "কতক ব্যক্তির ইবাদত কবুল হয় না ১ম পর্ব ।");
-        hashMap.put("vdo_desciption", "বক্তা: মাহমুদ বিন ক্বাসিম");
-        arrayList.add(hashMap);
-
-        //Video-07 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
-        hashMap = new HashMap<>();
-        hashMap.put("vdo_id", "rgbAFCQPcXE");
-        hashMap.put("vdo_title", "আপনার অন্তরকে এই রোগগুলি থেকে বাঁচানোর চেষ্টা করুন ।");
-        hashMap.put("vdo_desciption", "বক্তা: মাহমুদ বিন ক্বাসিম");
-        arrayList.add(hashMap);
-
-        //Video-06 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
-        hashMap = new HashMap<>();
-        hashMap.put("vdo_id", "HU8esRTPAzs");
-        hashMap.put("vdo_title", "কবরে প্রশ্নের উত্তর দিতে পারবেন যদি এই কাজটি করতে পারেন ।");
-        hashMap.put("vdo_desciption", "বক্তা: মাহমুদ বিন ক্বাসিম");
-        arrayList.add(hashMap);
-
-        //Video-05 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
-        hashMap = new HashMap<>();
-        hashMap.put("vdo_id", "AxhLBfI6mp0");
-        hashMap.put("vdo_title", "আপনি আপনার ধর্ম ইসলাম নিয়ে চর্চা করতে বাধ্য ।");
-        hashMap.put("vdo_desciption", "বক্তা: মাহমুদ বিন ক্বাসিম");
-        arrayList.add(hashMap);
-
-        //Video-04 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
-        hashMap = new HashMap<>();
-        hashMap.put("vdo_id", "g_rYcefZv0w");
-        hashMap.put("vdo_title", "মহান আল্লাহ কত দয়াবান ও কেমন ক্ষমাশীল ।");
-        hashMap.put("vdo_desciption", "বক্তা: মাহমুদ বিন ক্বাসিম");
-        arrayList.add(hashMap);
-
-        //Video-03 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
-        hashMap = new HashMap<>();
-        hashMap.put("vdo_id", "q36XaE9bplQ");
-        hashMap.put("vdo_title", "ঈমান হলো আশা আকাঙ্ক্ষা ও ভয়ভীতি নাম ।");
-        hashMap.put("vdo_desciption", "বক্তা: মাহমুদ বিন ক্বাসিম");
-        arrayList.add(hashMap);
-
-        //Video-02 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
-        hashMap = new HashMap<>();
-        hashMap.put("vdo_id", "DckVRI8FyAg");
-        hashMap.put("vdo_title", "পাপমুক্ত জীবন গড়তে আহ্বান।জীবনকে পাপমুক্ত করতে হলে এই কথাগুলি জানা জরুরী ।");
-        hashMap.put("vdo_desciption", "বক্তা: মাহমুদ বিন ক্বাসিম");
+        hashMap.put("vdo_id", "h0zhVfgMptY");
+        hashMap.put("vdo_title", "Islamic cartoon for kids in english - The lie - little muslim");
+        hashMap.put("vdo_desciption", "Carton: Osratouna entertains");
         arrayList.add(hashMap);
 
         //Video-01 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
         hashMap = new HashMap<>();
-        hashMap.put("vdo_id", "lVktDti6FUk");
-        hashMap.put("vdo_title", "আমাদের উচিৎ কর্মগুলিকে নিয়ে একটু চিন্তা করে দেখা।");
-        hashMap.put("vdo_desciption", "বক্তা: মাহমুদ বিন ক্বাসিম");
+        hashMap.put("vdo_id", "6eHYfJiv0Lw");
+        hashMap.put("vdo_title", "Islamic Stories for Kids \uD83D\uDCDA How Much Does Allah Love Me ?");
+        hashMap.put("vdo_desciption", "Carton: MiniMuslims");
         arrayList.add(hashMap);
 
+        //Video-01 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "vTvUjjimHEc");
+        hashMap.put("vdo_title", "Omar & Hana | Mufti Ismail Menk & More compilation");
+        hashMap.put("vdo_desciption", "Carton: Omar & Hana");
+        arrayList.add(hashMap);
 
+        //Video-01 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "CwgJDkzrRKA");
+        hashMap.put("vdo_title", "Omar & Hana | 60 minutes compilation of series");
+        hashMap.put("vdo_desciption", "Carton: Omar & Hana");
+        arrayList.add(hashMap);
 
+        //Video-01 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "xPwmqbpipS4");
+        hashMap.put("vdo_title", "Finding the Qiblah | Islamic Cartoon");
+        hashMap.put("vdo_desciption", "Carton: Omar & Hana");
+        arrayList.add(hashMap);
+
+        //Video-01 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "7ZP9Igza1Mo");
+        hashMap.put("vdo_title", "I'm Fasting | No Instruments | Omar & Hana English");
+        hashMap.put("vdo_desciption", "Carton: Omar & Hana");
+        arrayList.add(hashMap);
+
+        //Video-01 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "csWevAy7Oqc");
+        hashMap.put("vdo_title", "The Quran Is Our Friend | No Instruments");
+        hashMap.put("vdo_desciption", "Carton: Omar & Hana");
+        arrayList.add(hashMap);
+
+        //Video-01 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "0Whvqb8sm9M");
+        hashMap.put("vdo_title", "40 min Compilation of series | Islamic cartoon");
+        hashMap.put("vdo_desciption", "Carton: Omar & Hana");
+        arrayList.add(hashMap);
+
+        //Video-01 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "Y1eZ_JydvZE");
+        hashMap.put("vdo_title", "Omar & Hana | 60 minutes compilation");
+        hashMap.put("vdo_desciption", "Carton: Omar & Hana");
+        arrayList.add(hashMap);
+
+        //Video-01 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "IBLuvxStPTA");
+        hashMap.put("vdo_title", " 60 Minutes Omar & Hana Journey | Omar Hana English");
+        hashMap.put("vdo_desciption", "Carton: Omar & Hana");
+        arrayList.add(hashMap);
+
+        //Video-01 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "d2D6WuKlymM");
+        hashMap.put("vdo_title", "Prophet Nuh (AS) | Stories Of The Prophets");
+        hashMap.put("vdo_desciption", "Carton: Omar & Hana");
+        arrayList.add(hashMap);
+
+        //Video-01 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "W4v3eDC-bDA");
+        hashMap.put("vdo_title", "Story Of Prophet Adam (AS) | English Prophet Stories");
+        hashMap.put("vdo_desciption", "Carton: Omar & Hana");
+        arrayList.add(hashMap);
+
+        //Video-01 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "ICd33xmbjWs");
+        hashMap.put("vdo_title", "The Story Of Khadija (RA)");
+        hashMap.put("vdo_desciption", "Carton: Omar & Hana");
+        arrayList.add(hashMap);
+
+        //Video-01 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "l7s8R9ugb98");
+        hashMap.put("vdo_title", "Prophet Stories ISA / JESUS (AS)");
+        hashMap.put("vdo_desciption", "Carton: Omar & Hana");
+        arrayList.add(hashMap);
 
 
 
@@ -211,7 +188,7 @@ public class MahmudKashemActivity extends YouTubeBaseActivity implements YouTube
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_mahmud_kashem);
+        setContentView(R.layout.activity_english_islami_carton);
 
 
         MobileAds.initialize(this, new OnInitializationCompleteListener() {
@@ -237,7 +214,7 @@ public class MahmudKashemActivity extends YouTubeBaseActivity implements YouTube
 
 
         //init Youtube Player View
-        youTubePlayerView.initialize("ABCD", MahmudKashemActivity.this);
+        youTubePlayerView.initialize("ABCD", IslamiEnglishCartonActivity.this);
         myPlaybackEventListener = new MyPlaybackEventListener();
 
 
@@ -293,19 +270,17 @@ public class MahmudKashemActivity extends YouTubeBaseActivity implements YouTube
                     String tag = v.getTag().toString();
                     if (tag.contains("PLAYING")){
                         if (myYoutubePlayer!=null) myYoutubePlayer.pause();
-                        else Toast.makeText(MahmudKashemActivity.this, "Please wait...", Toast.LENGTH_LONG).show();
+                        else Toast.makeText(IslamiEnglishCartonActivity.this, "Please wait...", Toast.LENGTH_LONG).show();
 
                     }else if (tag.contains("PAUSED")){
                         if (myYoutubePlayer!=null) myYoutubePlayer.play();
-                        else Toast.makeText(MahmudKashemActivity.this, "Please wait...", Toast.LENGTH_LONG).show();
+                        else Toast.makeText(IslamiEnglishCartonActivity.this, "Please wait...", Toast.LENGTH_LONG).show();
                     }
                 }
 
 
             }
         });
-
-
 
         imgNext.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -333,7 +308,7 @@ public class MahmudKashemActivity extends YouTubeBaseActivity implements YouTube
 
     private void makeListView(){
 
-        ListView listView = new ListView( MahmudKashemActivity.this);
+        ListView listView = new ListView( IslamiEnglishCartonActivity.this);
         RelativeLayout.LayoutParams layoutParams = new RelativeLayout.LayoutParams(150, 10);
         layoutParams.height = ViewGroup.LayoutParams.WRAP_CONTENT;
         layoutParams.width = ViewGroup.LayoutParams.MATCH_PARENT;
@@ -354,7 +329,7 @@ public class MahmudKashemActivity extends YouTubeBaseActivity implements YouTube
             e.printStackTrace();
         }
 
-        layoutContainer.startAnimation(AnimationUtils.loadAnimation(MahmudKashemActivity.this, R.anim.fade_in));
+        layoutContainer.startAnimation(AnimationUtils.loadAnimation(IslamiEnglishCartonActivity.this, R.anim.fade_in));
 
     }
 
@@ -462,7 +437,7 @@ public class MahmudKashemActivity extends YouTubeBaseActivity implements YouTube
         private LayoutInflater inflater;
 
         public MyAdapter(){
-            this.inflater = (LayoutInflater) MahmudKashemActivity.this.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+            this.inflater = (LayoutInflater) IslamiEnglishCartonActivity.this.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         }
 
         @Override
@@ -544,12 +519,12 @@ public class MahmudKashemActivity extends YouTubeBaseActivity implements YouTube
 
         if(myYoutubePlayer!=null){
             layPlayer.setVisibility(View.VISIBLE);
-            layPlayer.startAnimation(AnimationUtils.loadAnimation(MahmudKashemActivity.this, R.anim.fade_in));
+            layPlayer.startAnimation(AnimationUtils.loadAnimation(IslamiEnglishCartonActivity.this, R.anim.fade_in));
             myYoutubePlayer.loadVideo(video_id);
             myYoutubePlayer.play();
             playingVideo = true;
         }else{
-            Toast.makeText(MahmudKashemActivity.this, "Please wait...", Toast.LENGTH_LONG).show();
+            Toast.makeText(IslamiEnglishCartonActivity.this, "Please wait...", Toast.LENGTH_LONG).show();
         }
     }
     //================================================
@@ -690,7 +665,7 @@ public class MahmudKashemActivity extends YouTubeBaseActivity implements YouTube
             String vdo_id = hashMap.get("vdo_id");
             playVideo(vdo_id);
         }else{
-            Toast.makeText(MahmudKashemActivity.this, "Playing the first video", Toast.LENGTH_LONG).show();
+            Toast.makeText(IslamiEnglishCartonActivity.this, "Playing the first video", Toast.LENGTH_LONG).show();
         }
 
     }
