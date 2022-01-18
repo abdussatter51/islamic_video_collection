@@ -61,6 +61,55 @@ public class MahmudKashemActivity extends YouTubeBaseActivity implements YouTube
         //Video Details Here Here
 
 
+        //Video-23 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "tpslDKv_T64");
+        hashMap.put("vdo_title", "ছোট্ট একটি হাদীস তাতে কত কি রয়েছে।");
+        hashMap.put("vdo_desciption", "বক্তা: মাহমুদ বিন ক্বাসিম");
+        arrayList.add(hashMap);
+
+        //Video-23 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "Vd6rH0_xK7E");
+        hashMap.put("vdo_title", "ইসলামের যুগেও জাহিলিয়াত।");
+        hashMap.put("vdo_desciption", "বক্তা: মাহমুদ বিন ক্বাসিম");
+        arrayList.add(hashMap);
+
+        //Video-22 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "0S01sfLbhlI");
+        hashMap.put("vdo_title", "ভালো নিয়্যাতের মর্যাদা।");
+        hashMap.put("vdo_desciption", "বক্তা: মাহমুদ বিন ক্বাসিম");
+        arrayList.add(hashMap);
+
+        //Video-21 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "3BqSkmLZFpU");
+        hashMap.put("vdo_title", "নেকীর ইচ্ছায় ভালো কাজ করার মর্যাদা়।");
+        hashMap.put("vdo_desciption", "বক্তা: মাহমুদ বিন ক্বাসিম");
+        arrayList.add(hashMap);
+
+        //Video-20 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "KCht4OOyia8");
+        hashMap.put("vdo_title", "জাতীকে পরিবর্তন করতে হলে বক্তব্য যেমন হতে হয়।");
+        hashMap.put("vdo_desciption", "বক্তা: মাহমুদ বিন ক্বাসিম");
+        arrayList.add(hashMap);
+
+        //Video-19 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "BaEt9VVowOc");
+        hashMap.put("vdo_title", "গ্রহণ করার মতো উপদেশ। মাহমুদ বিন ক্বাসিম।");
+        hashMap.put("vdo_desciption", "বক্তা: মাহমুদ বিন ক্বাসিম");
+        arrayList.add(hashMap);
+
+        //Video-18 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "oCDhOUxUqao");
+        hashMap.put("vdo_title", "ইসলামিক আলোচনায় বসার মর্যাদা। মাহমুদ বিন ক্বাসিম।");
+        hashMap.put("vdo_desciption", "বক্তা: মাহমুদ বিন ক্বাসিম");
+        arrayList.add(hashMap);
+
         //Video-17 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
         hashMap = new HashMap<>();
         hashMap.put("vdo_id", "4UGDT1PxQGc");
@@ -180,8 +229,257 @@ public class MahmudKashemActivity extends YouTubeBaseActivity implements YouTube
         hashMap.put("vdo_desciption", "বক্তা: মাহমুদ বিন ক্বাসিম");
         arrayList.add(hashMap);
 
+        //Video-00 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "q36XaE9bplQ");
+        hashMap.put("vdo_title", "ঈমান হলো আশা আকাঙ্ক্ষা ও ভয়ভীতি নাম।");
+        hashMap.put("vdo_desciption", "বক্তা: মাহমুদ বিন ক্বাসিম");
+        arrayList.add(hashMap);
 
+        //Video-01 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "HsBLiMseozs");
+        hashMap.put("vdo_title", "বন্দেগী বা ইবাদতের মর্ম।");
+        hashMap.put("vdo_desciption", "বক্তা: মাহমুদ বিন ক্বাসিম");
+        arrayList.add(hashMap);
 
+        //Video-02 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "KbNspFdzGao");
+        hashMap.put("vdo_title", "ব্যাপক অর্থবোধক দোয়া, নিরাপত্তা কামনা করা।");
+        hashMap.put("vdo_desciption", "বক্তা: মাহমুদ বিন ক্বাসিম");
+        arrayList.add(hashMap);
+
+        //Video-03 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "g_rYcefZv0w");
+        hashMap.put("vdo_title", "মহান আল্লাহ কত দয়াবান ও কেমন ক্ষমাশীল।");
+        hashMap.put("vdo_desciption", "বক্তা: মাহমুদ বিন ক্বাসিম");
+        arrayList.add(hashMap);
+
+        //Video-04 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "AxhLBfI6mp0");
+        hashMap.put("vdo_title", "আপনি আপনার ধর্ম ইসলাম নিয়ে চর্চা করতে বাধ্য।");
+        hashMap.put("vdo_desciption", "বক্তা: মাহমুদ বিন ক্বাসিম");
+        arrayList.add(hashMap);
+
+        //Video-05 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "HU8esRTPAzs");
+        hashMap.put("vdo_title", "কবরে প্রশ্নের উত্তর দিতে পারবেন যদি এই কাজটি করতে পারেন।");
+        hashMap.put("vdo_desciption", "বক্তা: মাহমুদ বিন ক্বাসিম");
+        arrayList.add(hashMap);
+
+        //Video-06 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "rgbAFCQPcXE");
+        hashMap.put("vdo_title", "আপনার অন্তরকে এই রোগগুলি থেকে বাঁচানোর চেষ্টা করুন।");
+        hashMap.put("vdo_desciption", "বক্তা: মাহমুদ বিন ক্বাসিম");
+        arrayList.add(hashMap);
+
+        //Video-07 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "vQjNTF3Mm7k");
+        hashMap.put("vdo_title", "কতক ব্যক্তির ইবাদত কবুল হয় না।");
+        hashMap.put("vdo_desciption", "বক্তা: মাহমুদ বিন ক্বাসিম");
+        arrayList.add(hashMap);
+
+        //Video-08 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "32jnZrSNkE8");
+        hashMap.put("vdo_title", "অন্তর ভালো হলে কি লাভ আর মন্দ হলে কি ক্ষতি।");
+        hashMap.put("vdo_desciption", "বক্তা: মাহমুদ বিন ক্বাসিম");
+        arrayList.add(hashMap);
+
+        //Video-09 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "cpKPDbAlOXQ");
+        hashMap.put("vdo_title", "আখলাক মানে কি শুধু ১টি গুণ।");
+        hashMap.put("vdo_desciption", "বক্তা: মাহমুদ বিন ক্বাসিম");
+        arrayList.add(hashMap);
+
+        //Video-10 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "Jo0btlkLC-c");
+        hashMap.put("vdo_title", "মাহফিলে দোকানের মেলা দেখে যা বলা হলো।");
+        hashMap.put("vdo_desciption", "বক্তা: মাহমুদ বিন ক্বাসিম");
+        arrayList.add(hashMap);
+
+        //Video-10 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "OwIKT-gOKHQ");
+        hashMap.put("vdo_title", "আমরা দুনিয়ার দিকে ঝুকে গেছি।");
+        hashMap.put("vdo_desciption", "বক্তা: মাহমুদ বিন ক্বাসিম");
+        arrayList.add(hashMap);
+
+        //Video-11 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "FhJGpIJQ2p4");
+        hashMap.put("vdo_title", "আপনার বাসস্থান বলে দিচ্ছে যে আপনি ১জন দুনিয়াদার ব্যক্তি");
+        hashMap.put("vdo_desciption", "বক্তা: মাহমুদ বিন ক্বাসিম");
+        arrayList.add(hashMap);
+
+        //Video-11 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "2-7l6cvdBIQ");
+        hashMap.put("vdo_title", "ইসলামের এই বৈশিষ্ট্যটি আপনাকে মুরতাদ হওয়া থেকে বাচাবে");
+        hashMap.put("vdo_desciption", "বক্তা: মাহমুদ বিন ক্বাসিম");
+        arrayList.add(hashMap);
+
+        //Video-12 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "bNGC65Do7I4");
+        hashMap.put("vdo_title", "মা বোনদের দান সম্পর্কে যা আড়ালে থেকে যায়");
+        hashMap.put("vdo_desciption", "বক্তা: মাহমুদ বিন ক্বাসিম");
+        arrayList.add(hashMap);
+
+        //Video-13 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "ND1_4LeOlVs");
+        hashMap.put("vdo_title", "মিলাদুন নাবী এবং এমন যে কোনো দিবস পালনের ক্ষেত্রে ইসলামের মূলনীতি");
+        hashMap.put("vdo_desciption", "বক্তা: মাহমুদ বিন ক্বাসিম");
+        arrayList.add(hashMap);
+
+        //Video-14 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "YZ7qAYYS6XY");
+        hashMap.put("vdo_title", "চলমান পরিস্থিতি সম্পর্কে আমার অভিমত।");
+        hashMap.put("vdo_desciption", "বক্তা: মাহমুদ বিন ক্বাসিম");
+        arrayList.add(hashMap);
+
+        //Video-15 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "PHBKVXPKZG0");
+        hashMap.put("vdo_title", "অনেকের ইবাদত যে কবুল হয়না এর দলীল।");
+        hashMap.put("vdo_desciption", "বক্তা: মাহমুদ বিন ক্বাসিম");
+        arrayList.add(hashMap);
+
+        //Video-16 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "_DtQwwUP4kE");
+        hashMap.put("vdo_title", "জীবনের আসল লক্ষ্য হতে হবে জান্নাত।");
+        hashMap.put("vdo_desciption", "বক্তা: মাহমুদ বিন ক্বাসিম");
+        arrayList.add(hashMap);
+
+        //Video-17 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "85JZ9WfTkSI");
+        hashMap.put("vdo_title", "আপনি যদি মাত্র ৩ বার করে বলেন আল্লাহ্\u200C আমি জান্নাত চাই");
+        hashMap.put("vdo_desciption", "বক্তা: মাহমুদ বিন ক্বাসিম");
+        arrayList.add(hashMap);
+
+        //Video-18 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "lDL2GqMh7BA");
+        hashMap.put("vdo_title", "কল্যাণকর দুয়াগুলির ২টি।");
+        hashMap.put("vdo_desciption", "বক্তা: মাহমুদ বিন ক্বাসিম");
+        arrayList.add(hashMap);
+
+        //Video-19 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "MDIOhO6rrz4");
+        hashMap.put("vdo_title", "যারা সূরা আল-ফাতিহা পারে না তারা কীভাবে সালাত আদায় করবেন।");
+        hashMap.put("vdo_desciption", "বক্তা: মাহমুদ বিন ক্বাসিম");
+        arrayList.add(hashMap);
+
+        //Video-20 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "vA3wv4Z6PUc");
+        hashMap.put("vdo_title", "দোয়া কবুল করাতে হলে এই দিকগুলি লাগবে।");
+        hashMap.put("vdo_desciption", "বক্তা: মাহমুদ বিন ক্বাসিম");
+        arrayList.add(hashMap);
+
+        //Video-21 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "g1A3kDENrJc");
+        hashMap.put("vdo_title", "যারা প্রয়োজনে ও স্বাভাবিক অবস্থায় আল্লাহ্\u200Cকে ডাকে তাঁদের মর্যাদা।");
+        hashMap.put("vdo_desciption", "বক্তা: মাহমুদ বিন ক্বাসিম");
+        arrayList.add(hashMap);
+
+        //Video-22 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "qzH4_NMA3zs");
+        hashMap.put("vdo_title", "কার আত্মা কীভাবে বেড় হয়া।");
+        hashMap.put("vdo_desciption", "বক্তা: মাহমুদ বিন ক্বাসিম");
+        arrayList.add(hashMap);
+
+        //Video-23 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "Go2AQIKSFhI");
+        hashMap.put("vdo_title", "যারা জানতে পারে কখন তাঁদের মৃত্যু হবে তাঁরা কারা?");
+        hashMap.put("vdo_desciption", "বক্তা: মাহমুদ বিন ক্বাসিম");
+        arrayList.add(hashMap);
+
+        //Video-24 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "mrmhP8MXRHM");
+        hashMap.put("vdo_title", "পাপীদের মৃত্যু কখনই সৎলোকের মতো হবে না।");
+        hashMap.put("vdo_desciption", "বক্তা: মাহমুদ বিন ক্বাসিম");
+        arrayList.add(hashMap);
+
+        //Video-25 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "PU0vwMFaqdI");
+        hashMap.put("vdo_title", "আসুন জেনে নেই কার মৃত্যু কীভাবে ঘটবে।");
+        hashMap.put("vdo_desciption", "বক্তা: মাহমুদ বিন ক্বাসিম");
+        arrayList.add(hashMap);
+
+        //Video-26 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "uoAYBmE1qyE");
+        hashMap.put("vdo_title", "মুহাররাম মাসের সঠিক পরিচয়।");
+        hashMap.put("vdo_desciption", "বক্তা: মাহমুদ বিন ক্বাসিম");
+        arrayList.add(hashMap);
+
+        //Video-27 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "TivwuCuWTPY");
+        hashMap.put("vdo_title", "হুসাইন রাঃ হত্যাকারিদের সাথে আমাদের কি সম্পর্ক।");
+        hashMap.put("vdo_desciption", "বক্তা: মাহমুদ বিন ক্বাসিম");
+        arrayList.add(hashMap);
+
+        //Video-28 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "SGfXlyHD0s8");
+        hashMap.put("vdo_title", "জীবন থেকে ১টি বছর চলে যাওয়া এবং আগামী বছরের কল্যাণ হাসিল হওয়ার হিসাব নিকাশ যেভাবে করবেন।");
+        hashMap.put("vdo_desciption", "বক্তা: মাহমুদ বিন ক্বাসিম");
+        arrayList.add(hashMap);
+
+        //Video-29 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "kkDKAKSul2g");
+        hashMap.put("vdo_title", "বেকারত্বও যে ১টি বড় নিয়ামত বহু মুসলিম তা জানেনা।");
+        hashMap.put("vdo_desciption", "বক্তা: মাহমুদ বিন ক্বাসিম");
+        arrayList.add(hashMap);
+
+        //Video-30 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "JShHPGkwBKI");
+        hashMap.put("vdo_title", "আল্লাহ্\u200Cর এই অনুগ্রহটা আপনিও পেয়েছেন।");
+        hashMap.put("vdo_desciption", "বক্তা: মাহমুদ বিন ক্বাসিম");
+        arrayList.add(hashMap);
+
+        //Video-31 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "K2uddX_KYfU");
+        hashMap.put("vdo_title", "আমাদেরকে কেন মৃত্যুর মুহূর্ত নিয়ে ভাবতে হবে।");
+        hashMap.put("vdo_desciption", "বক্তা: মাহমুদ বিন ক্বাসিম");
+        arrayList.add(hashMap);
+
+        //Video-32 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "MrHYw0nETcg");
+        hashMap.put("vdo_title", "এই দুনিয়াতে এমন ১টি দিন আছে যেই দিন প্রত্যেকে ফেরেশতা দেখতে পাবে।");
+        hashMap.put("vdo_desciption", "বক্তা: মাহমুদ বিন ক্বাসিম");
+        arrayList.add(hashMap);
+
+        //Video-33 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "H99RlgVXmEY");
+        hashMap.put("vdo_title", "মৃত্যু ১টি সৃষ্টি, এটা যারা জানে তারা ১টি বদ আক্বিদা থেকে মুক্ত।");
+        hashMap.put("vdo_desciption", "বক্তা: মাহমুদ বিন ক্বাসিম");
+        arrayList.add(hashMap);
 
 
 

@@ -63,6 +63,13 @@ public class AbuTahaActivity extends YouTubeBaseActivity implements YouTubePlaye
 
         //Video-01 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
         hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "IzSk3biR_qg");
+        hashMap.put("vdo_title", "বছরের প্রথম নতুন আলোচনায় মুগ্ধ লক্ষ লক্ষ জনতা-2022।");
+        hashMap.put("vdo_desciption", "বক্তা: আবু ত্বহা মোহাম্মদ আদনান");
+        arrayList.add(hashMap);
+
+        //Video-01 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
         hashMap.put("vdo_id", "45D_dOVErXc");
         hashMap.put("vdo_title", "আধুনিক বিশ্বে ইসলাম ও আগামীর প্রস্তুতি।");
         hashMap.put("vdo_desciption", "বক্তা: আবু ত্বহা মোহাম্মদ আদনান");

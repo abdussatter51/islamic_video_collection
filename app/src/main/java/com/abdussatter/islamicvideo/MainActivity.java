@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
     TextToSpeech textToSpeech;
     Animation fadeIn, zoomIn;
     FloatingActionButton fabButton;
-    LinearLayout layoutAbdullahJahangir, layoutAhmadUllah, layoutKashem, layoutDubbing, layoutBanglaSong, layoutSaifullah, layoutIslamicMovie, layoutIslamicCarton, layoutQuranTelawat, layoutMizanurRahman, layoutMujaffarBinMohsin, layoutQuranTelawatBangla, layoutIslamicCartonEnglish, layoutEnglishSong, layoutArabicSong, layoutUrduSong, layoutProfetStroy, layoutProfetStroyCarton, layoutAbuTaha, layoutMokhteAhmad;
+    LinearLayout layoutAbdullahJahangir, layoutAhmadUllah, layoutKashem, layoutDubbing, layoutBanglaSong, layoutSaifullah, layoutIslamicMovie, layoutIslamicCarton, layoutQuranTelawat, layoutMizanurRahman, layoutMujaffarBinMohsin, layoutQuranTelawatBangla, layoutIslamicCartonEnglish, layoutEnglishSong, layoutArabicSong, layoutUrduSong, layoutProfetStroy, layoutProfetStroyCarton, layoutAbuTaha, layoutMokhteAhmad, layoutLearningQuranWithJamal,layoutLearningQuranTelawatWithJamal;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -50,6 +50,8 @@ public class MainActivity extends AppCompatActivity {
         layoutProfetStroyCarton = findViewById(R.id.layoutProfetStroyCarton);
         layoutAbuTaha = findViewById(R.id.layoutAbuTaha);
         layoutMokhteAhmad = findViewById(R.id.layoutMokhteAhmad);
+        layoutLearningQuranWithJamal = findViewById(R.id.layoutLearningQuranWithJamal);
+        layoutLearningQuranTelawatWithJamal = findViewById(R.id.layoutLearningQuranTelawatWithJamal);
 
         //Fab Button onClick
  /*       fabButton.setOnClickListener(new View.OnClickListener() {
@@ -330,6 +332,32 @@ public class MainActivity extends AppCompatActivity {
                 NetworkInfo networkInfo = connectivityManager.getActiveNetworkInfo();
                 if(networkInfo!=null && networkInfo.isConnected()){
                     Intent videoPlaylistIntent = new Intent(MainActivity.this, MokhterAhmadActivity.class);
+                    startActivity(videoPlaylistIntent);
+                }else {
+                    alertDialog();
+                }
+            }
+        });
+        layoutLearningQuranWithJamal.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                ConnectivityManager connectivityManager = (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
+                NetworkInfo networkInfo = connectivityManager.getActiveNetworkInfo();
+                if(networkInfo!=null && networkInfo.isConnected()){
+                    Intent videoPlaylistIntent = new Intent(MainActivity.this, LearningQuranWithJamalActivity.class);
+                    startActivity(videoPlaylistIntent);
+                }else {
+                    alertDialog();
+                }
+            }
+        });
+        layoutLearningQuranTelawatWithJamal.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                ConnectivityManager connectivityManager = (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
+                NetworkInfo networkInfo = connectivityManager.getActiveNetworkInfo();
+                if(networkInfo!=null && networkInfo.isConnected()){
+                    Intent videoPlaylistIntent = new Intent(MainActivity.this, LearningQuranTelawatWithJamalActivity.class);
                     startActivity(videoPlaylistIntent);
                 }else {
                     alertDialog();

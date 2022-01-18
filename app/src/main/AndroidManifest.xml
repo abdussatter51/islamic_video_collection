@@ -20,6 +20,12 @@
         android:supportsRtl="true"
         android:theme="@style/ThemeHome">
         <activity
+            android:name=".LearningQuranTelawatWithJamalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LearningQuranWithJamalActivity"
+            android:exported="false" />
+        <activity
             android:name=".MokhterAhmadActivity"
             android:exported="false" />
         <activity

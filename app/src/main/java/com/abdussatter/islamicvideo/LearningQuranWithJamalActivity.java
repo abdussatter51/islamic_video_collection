@@ -44,7 +44,7 @@ import java.util.Locale;
 import java.util.Random;
 import java.util.TimeZone;
 
-public class IslamiEnglishCartonActivity extends YouTubeBaseActivity implements YouTubePlayer.OnInitializedListener {
+public class LearningQuranWithJamalActivity extends YouTubeBaseActivity implements YouTubePlayer.OnInitializedListener {
 
         /*
     >>Source Code provided by
@@ -62,172 +62,287 @@ public class IslamiEnglishCartonActivity extends YouTubeBaseActivity implements 
 
 
 
-        //Video-01 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
-        hashMap = new HashMap<>();
-        hashMap.put("vdo_id", "zp8bSL4lPgE");
-        hashMap.put("vdo_title", "Cold Drinks & Sore Throat");
-        hashMap.put("vdo_desciption", "Carton: Kaniz Fatema");
-        arrayList.add(hashMap);
 
         //Video-01 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
         hashMap = new HashMap<>();
-        hashMap.put("vdo_id", "7PdMd2aIJKI");
-        hashMap.put("vdo_title", "Jinn Without Eyes | Islamic Cartoon");
-        hashMap.put("vdo_desciption", "Carton: Golam Rasul");
+        hashMap.put("vdo_id", "8jGalaSh3oI");
+        hashMap.put("vdo_title", "কুরআন শেখার সহজ উপায়। Part-01");
+        hashMap.put("vdo_desciption", "Lecturer:Muhammad Jamal Uddin");
         arrayList.add(hashMap);
 
-        //Video-01 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        //Video-02 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
         hashMap = new HashMap<>();
-        hashMap.put("vdo_id", "CzeS2KMDdcM");
-        hashMap.put("vdo_title", "Babloo And Popcorn Part 1");
-        hashMap.put("vdo_desciption", "Carton: Golam Rasul");
+        hashMap.put("vdo_id", "B18InEOVnfw");
+        hashMap.put("vdo_title", "কুরআন শেখার সহজ উপায়। Part-02");
+        hashMap.put("vdo_desciption", "Lecturer:Muhammad Jamal Uddin");
         arrayList.add(hashMap);
 
-        //Video-01 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        //Video-03 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
         hashMap = new HashMap<>();
-        hashMap.put("vdo_id", "k2xC6DLDFzU");
-        hashMap.put("vdo_title", "Babloo And Popcorn Part 2");
-        hashMap.put("vdo_desciption", "Carton: Golam Rasul");
+        hashMap.put("vdo_id", "guNUt-04GDw");
+        hashMap.put("vdo_title", "কুরআন শেখার সহজ উপায়। Part-03");
+        hashMap.put("vdo_desciption", "Lecturer:Muhammad Jamal Uddin");
         arrayList.add(hashMap);
 
-        //Video-01 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        //Video-04 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
         hashMap = new HashMap<>();
-        hashMap.put("vdo_id", "zD_LKRuot3c");
-        hashMap.put("vdo_title", "Flowers of Islam | English Islamic Cartoon | Ali Cartoon");
-        hashMap.put("vdo_desciption", "Ali Cartoons");
+        hashMap.put("vdo_id", "CpuhGbWz23M");
+        hashMap.put("vdo_title", "কুরআন শেখার সহজ উপায়। Part-04");
+        hashMap.put("vdo_desciption", "Lecturer:Muhammad Jamal Uddin");
         arrayList.add(hashMap);
 
-        //Video-01 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        //Video-05 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
         hashMap = new HashMap<>();
-        hashMap.put("vdo_id", "KiDwfQdChCg");
-        hashMap.put("vdo_title", "ISLAMIC PRAYERS FOR KIDS - PART 01");
-        hashMap.put("vdo_desciption", "Ali Cartoons");
+        hashMap.put("vdo_id", "vmyZrNB7YKw");
+        hashMap.put("vdo_title", "কুরআন শেখার সহজ উপায়। Part-05");
+        hashMap.put("vdo_desciption", "Lecturer:Muhammad Jamal Uddin");
         arrayList.add(hashMap);
 
-        //Video-01 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        //Video-06 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
         hashMap = new HashMap<>();
-        hashMap.put("vdo_id", "Z0BJOm-oSBs");
-        hashMap.put("vdo_title", "ISLAMIC PRAYERS FOR KIDS - PART 01");
-        hashMap.put("vdo_desciption", "Ali Cartoons");
+        hashMap.put("vdo_id", "awOFRe_MCyc");
+        hashMap.put("vdo_title", "কুরআন শেখার সহজ উপায়। Part-06");
+        hashMap.put("vdo_desciption", "Lecturer:Muhammad Jamal Uddin");
         arrayList.add(hashMap);
 
-        //Video-01 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        //Video-07 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
         hashMap = new HashMap<>();
-        hashMap.put("vdo_id", "q3Fq43YitPE");
-        hashMap.put("vdo_title", "ISLAMIC English Cartoon for KIDS");
-        hashMap.put("vdo_desciption", "Ali Cartoons");
+        hashMap.put("vdo_id", "UPh2wjcvcPw");
+        hashMap.put("vdo_title", "কুরআন শেখার সহজ উপায়। Part-07");
+        hashMap.put("vdo_desciption", "Lecturer:Muhammad Jamal Uddin");
         arrayList.add(hashMap);
 
-
-
-
-
-
-
-        //Video-01 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        //Video-08 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
         hashMap = new HashMap<>();
-        hashMap.put("vdo_id", "f6iR5elhDdk");
-        hashMap.put("vdo_title", "How to pray 4 Rakat (units) - Step by Step Guide");
-        hashMap.put("vdo_desciption", "Carton: One Kids");
+        hashMap.put("vdo_id", "AbaSw_GYqLg");
+        hashMap.put("vdo_title", "কুরআন শেখার সহজ উপায়। Part-08");
+        hashMap.put("vdo_desciption", "Lecturer:Muhammad Jamal Uddin");
         arrayList.add(hashMap);
 
-        //Video-01 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        //Video-09 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
         hashMap = new HashMap<>();
-        hashMap.put("vdo_id", "h0zhVfgMptY");
-        hashMap.put("vdo_title", "Islamic cartoon for kids in english - The lie - little muslim");
-        hashMap.put("vdo_desciption", "Carton: Osratouna entertains");
+        hashMap.put("vdo_id", "7Cpgiu443Uc");
+        hashMap.put("vdo_title", "কুরআন শেখার সহজ উপায়। Part-09");
+        hashMap.put("vdo_desciption", "Lecturer:Muhammad Jamal Uddin");
         arrayList.add(hashMap);
 
-        //Video-01 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        //Video-10 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
         hashMap = new HashMap<>();
-        hashMap.put("vdo_id", "6eHYfJiv0Lw");
-        hashMap.put("vdo_title", "Islamic Stories for Kids \uD83D\uDCDA How Much Does Allah Love Me ?");
-        hashMap.put("vdo_desciption", "Carton: MiniMuslims");
+        hashMap.put("vdo_id", "suh_4ANJvSQ");
+        hashMap.put("vdo_title", "কুরআন শেখার সহজ উপায়। Part-10");
+        hashMap.put("vdo_desciption", "Lecturer:Muhammad Jamal Uddin");
         arrayList.add(hashMap);
 
-        //Video-01 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        //Video-11 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
         hashMap = new HashMap<>();
-        hashMap.put("vdo_id", "vTvUjjimHEc");
-        hashMap.put("vdo_title", "Omar & Hana | Mufti Ismail Menk & More compilation");
-        hashMap.put("vdo_desciption", "Carton: Omar & Hana");
+        hashMap.put("vdo_id", "vw8qTNeiwlg");
+        hashMap.put("vdo_title", "কুরআন শেখার সহজ উপায়। Part-11");
+        hashMap.put("vdo_desciption", "Lecturer:Muhammad Jamal Uddin");
         arrayList.add(hashMap);
 
-        //Video-01 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        //Video-12 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
         hashMap = new HashMap<>();
-        hashMap.put("vdo_id", "CwgJDkzrRKA");
-        hashMap.put("vdo_title", "Omar & Hana | 60 minutes compilation of series");
-        hashMap.put("vdo_desciption", "Carton: Omar & Hana");
+        hashMap.put("vdo_id", "YEXjb1Np1Dc");
+        hashMap.put("vdo_title", "কুরআন শেখার সহজ উপায়। Part-12");
+        hashMap.put("vdo_desciption", "Lecturer:Muhammad Jamal Uddin");
         arrayList.add(hashMap);
 
-        //Video-01 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        //Video-13 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
         hashMap = new HashMap<>();
-        hashMap.put("vdo_id", "xPwmqbpipS4");
-        hashMap.put("vdo_title", "Finding the Qiblah | Islamic Cartoon");
-        hashMap.put("vdo_desciption", "Carton: Omar & Hana");
+        hashMap.put("vdo_id", "XbHlJdjR87Y");
+        hashMap.put("vdo_title", "কুরআন শেখার সহজ উপায়। Part-13");
+        hashMap.put("vdo_desciption", "Lecturer:Muhammad Jamal Uddin");
         arrayList.add(hashMap);
 
-        //Video-01 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        //Video-14 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
         hashMap = new HashMap<>();
-        hashMap.put("vdo_id", "7ZP9Igza1Mo");
-        hashMap.put("vdo_title", "I'm Fasting | No Instruments | Omar & Hana English");
-        hashMap.put("vdo_desciption", "Carton: Omar & Hana");
+        hashMap.put("vdo_id", "-bojmRpmXIU");
+        hashMap.put("vdo_title", "কুরআন শেখার সহজ উপায়। Part-14");
+        hashMap.put("vdo_desciption", "Lecturer:Muhammad Jamal Uddin");
         arrayList.add(hashMap);
 
-        //Video-01 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        //Video-15 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
         hashMap = new HashMap<>();
-        hashMap.put("vdo_id", "csWevAy7Oqc");
-        hashMap.put("vdo_title", "The Quran Is Our Friend | No Instruments");
-        hashMap.put("vdo_desciption", "Carton: Omar & Hana");
+        hashMap.put("vdo_id", "BBG53rPc23o");
+        hashMap.put("vdo_title", "কুরআন শেখার সহজ উপায়। Part-15");
+        hashMap.put("vdo_desciption", "Lecturer:Muhammad Jamal Uddin");
         arrayList.add(hashMap);
 
-        //Video-01 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        //Video-16 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
         hashMap = new HashMap<>();
-        hashMap.put("vdo_id", "0Whvqb8sm9M");
-        hashMap.put("vdo_title", "40 min Compilation of series | Islamic cartoon");
-        hashMap.put("vdo_desciption", "Carton: Omar & Hana");
+        hashMap.put("vdo_id", "94lnypZfrT8");
+        hashMap.put("vdo_title", "কুরআন শেখার সহজ উপায়। Part-16");
+        hashMap.put("vdo_desciption", "Lecturer:Muhammad Jamal Uddin");
         arrayList.add(hashMap);
 
-        //Video-01 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        //Video-17 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
         hashMap = new HashMap<>();
-        hashMap.put("vdo_id", "Y1eZ_JydvZE");
-        hashMap.put("vdo_title", "Omar & Hana | 60 minutes compilation");
-        hashMap.put("vdo_desciption", "Carton: Omar & Hana");
+        hashMap.put("vdo_id", "YX9DNk5jEGE");
+        hashMap.put("vdo_title", "কুরআন শেখার সহজ উপায়। Part-17");
+        hashMap.put("vdo_desciption", "Lecturer:Muhammad Jamal Uddin");
         arrayList.add(hashMap);
 
-        //Video-01 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        //Video-18 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
         hashMap = new HashMap<>();
-        hashMap.put("vdo_id", "IBLuvxStPTA");
-        hashMap.put("vdo_title", " 60 Minutes Omar & Hana Journey | Omar Hana English");
-        hashMap.put("vdo_desciption", "Carton: Omar & Hana");
+        hashMap.put("vdo_id", "SXpjtq_s6ac");
+        hashMap.put("vdo_title", "কুরআন শেখার সহজ উপায়। Part-18");
+        hashMap.put("vdo_desciption", "Lecturer:Muhammad Jamal Uddin");
         arrayList.add(hashMap);
 
-        //Video-01 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        //Video-19 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
         hashMap = new HashMap<>();
-        hashMap.put("vdo_id", "d2D6WuKlymM");
-        hashMap.put("vdo_title", "Prophet Nuh (AS) | Stories Of The Prophets");
-        hashMap.put("vdo_desciption", "Carton: Omar & Hana");
+        hashMap.put("vdo_id", "zJ5ygFveodI");
+        hashMap.put("vdo_title", "কুরআন শেখার সহজ উপায়। Part-19");
+        hashMap.put("vdo_desciption", "Lecturer:Muhammad Jamal Uddin");
         arrayList.add(hashMap);
 
-        //Video-01 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        //Video-20 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
         hashMap = new HashMap<>();
-        hashMap.put("vdo_id", "W4v3eDC-bDA");
-        hashMap.put("vdo_title", "Story Of Prophet Adam (AS) | English Prophet Stories");
-        hashMap.put("vdo_desciption", "Carton: Omar & Hana");
+        hashMap.put("vdo_id", "DNb0FSXwd-s");
+        hashMap.put("vdo_title", "কুরআন শেখার সহজ উপায়। Part-20");
+        hashMap.put("vdo_desciption", "Lecturer:Muhammad Jamal Uddin");
         arrayList.add(hashMap);
 
-        //Video-01 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        //Video-21 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
         hashMap = new HashMap<>();
-        hashMap.put("vdo_id", "ICd33xmbjWs");
-        hashMap.put("vdo_title", "The Story Of Khadija (RA)");
-        hashMap.put("vdo_desciption", "Carton: Omar & Hana");
+        hashMap.put("vdo_id", "rplEOCiSTp4");
+        hashMap.put("vdo_title", "কুরআন শেখার সহজ উপায়। Part-21");
+        hashMap.put("vdo_desciption", "Lecturer:Muhammad Jamal Uddin");
         arrayList.add(hashMap);
 
-        //Video-01 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        //Video-22 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
         hashMap = new HashMap<>();
-        hashMap.put("vdo_id", "l7s8R9ugb98");
-        hashMap.put("vdo_title", "Prophet Stories ISA / JESUS (AS)");
-        hashMap.put("vdo_desciption", "Carton: Omar & Hana");
+        hashMap.put("vdo_id", "TYDajP8Tw6E");
+        hashMap.put("vdo_title", "কুরআন শেখার সহজ উপায়। Part-22");
+        hashMap.put("vdo_desciption", "Lecturer:Muhammad Jamal Uddin");
         arrayList.add(hashMap);
+
+        //Video-23 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "-rZ_Lthj-Kk");
+        hashMap.put("vdo_title", "কুরআন শেখার সহজ উপায়। Part-23");
+        hashMap.put("vdo_desciption", "Lecturer:Muhammad Jamal Uddin");
+        arrayList.add(hashMap);
+
+        //Video-24 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "CK3kuI5QL5o");
+        hashMap.put("vdo_title", "কুরআন শেখার সহজ উপায়। Part-24");
+        hashMap.put("vdo_desciption", "Lecturer:Muhammad Jamal Uddin");
+        arrayList.add(hashMap);
+
+        //Video-25 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "3j4RBfgSziY");
+        hashMap.put("vdo_title", "কুরআন শেখার সহজ উপায়। Part-25");
+        hashMap.put("vdo_desciption", "Lecturer:Muhammad Jamal Uddin");
+        arrayList.add(hashMap);
+
+        //Video-26 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "xDfuDcq4JzU");
+        hashMap.put("vdo_title", "কুরআন শেখার সহজ উপায়। Part-26");
+        hashMap.put("vdo_desciption", "Lecturer:Muhammad Jamal Uddin");
+        arrayList.add(hashMap);
+
+        //Video-27 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "LaWvUOUMY2k");
+        hashMap.put("vdo_title", "কুরআন শেখার সহজ উপায়। Part-27");
+        hashMap.put("vdo_desciption", "Lecturer:Muhammad Jamal Uddin");
+        arrayList.add(hashMap);
+
+        //Video-28 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "WjsiOxb-rzY");
+        hashMap.put("vdo_title", "কুরআন শেখার সহজ উপায়। Part-28");
+        hashMap.put("vdo_desciption", "Lecturer:Muhammad Jamal Uddin");
+        arrayList.add(hashMap);
+
+        //Video-29 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "-qjskjJl4Jw");
+        hashMap.put("vdo_title", "কুরআন শেখার সহজ উপায়। Part-29");
+        hashMap.put("vdo_desciption", "Lecturer:Muhammad Jamal Uddin");
+        arrayList.add(hashMap);
+
+        //Video-30 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "9CoWcyqgJuQ");
+        hashMap.put("vdo_title", "কুরআন শেখার সহজ উপায়। Part-30");
+        hashMap.put("vdo_desciption", "Lecturer:Muhammad Jamal Uddin");
+        arrayList.add(hashMap);
+
+        //Video-31 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "8eUj3DzKekY");
+        hashMap.put("vdo_title", "কুরআন শেখার সহজ উপায়। Part-31");
+        hashMap.put("vdo_desciption", "Lecturer:Muhammad Jamal Uddin");
+        arrayList.add(hashMap);
+
+        //Video-32 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "kP_elsVeY_Y");
+        hashMap.put("vdo_title", "কুরআন শেখার সহজ উপায়। Part-32");
+        hashMap.put("vdo_desciption", "Lecturer:Muhammad Jamal Uddin");
+        arrayList.add(hashMap);
+
+        //Video-33 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "y3L2zJ7Z6co");
+        hashMap.put("vdo_title", "কুরআন শেখার সহজ উপায়। Part-33");
+        hashMap.put("vdo_desciption", "Lecturer:Muhammad Jamal Uddin");
+        arrayList.add(hashMap);
+
+        //Video-34 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "E1btubCl4l8");
+        hashMap.put("vdo_title", "কুরআন শেখার সহজ উপায়। Part-34");
+        hashMap.put("vdo_desciption", "Lecturer:Muhammad Jamal Uddin");
+        arrayList.add(hashMap);
+
+        //Video-35 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "gh9BioIgsX4");
+        hashMap.put("vdo_title", "কুরআন শেখার সহজ উপায়। Part-35");
+        hashMap.put("vdo_desciption", "Lecturer:Muhammad Jamal Uddin");
+        arrayList.add(hashMap);
+
+        //Video-36 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "tRKKwDSPOVM");
+        hashMap.put("vdo_title", "কুরআন শেখার সহজ উপায়। Part-36");
+        hashMap.put("vdo_desciption", "Lecturer:Muhammad Jamal Uddin");
+        arrayList.add(hashMap);
+
+        //Video-37 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "gn65cOKl4pQ");
+        hashMap.put("vdo_title", "কুরআন শেখার সহজ উপায়। Part-37");
+        hashMap.put("vdo_desciption", "Lecturer:Muhammad Jamal Uddin");
+        arrayList.add(hashMap);
+
+        //Video-38 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "FpLIAPrJB1o");
+        hashMap.put("vdo_title", "কুরআন শেখার সহজ উপায়। Part-38");
+        hashMap.put("vdo_desciption", "Lecturer:Muhammad Jamal Uddin");
+        arrayList.add(hashMap);
+
+        //Video-39 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "2YZ3NqC1Bxo");
+        hashMap.put("vdo_title", "কুরআন শেখার সহজ উপায়। Part-39");
+        hashMap.put("vdo_desciption", "Lecturer:Muhammad Jamal Uddin");
+        arrayList.add(hashMap);
+
+        //Video-40 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "XPcjTgXU0kc");
+        hashMap.put("vdo_title", "কুরআন শেখার সহজ উপায়। Part-40");
+        hashMap.put("vdo_desciption", "Lecturer:Muhammad Jamal Uddin");
+        arrayList.add(hashMap);
+
 
 
 
@@ -257,7 +372,7 @@ public class IslamiEnglishCartonActivity extends YouTubeBaseActivity implements 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_english_islami_carton);
+        setContentView(R.layout.activity_learning_quran_with_jamal);
 
 
         MobileAds.initialize(this, new OnInitializationCompleteListener() {
@@ -283,7 +398,7 @@ public class IslamiEnglishCartonActivity extends YouTubeBaseActivity implements 
 
 
         //init Youtube Player View
-        youTubePlayerView.initialize("ABCD", IslamiEnglishCartonActivity.this);
+        youTubePlayerView.initialize("ABCD", LearningQuranWithJamalActivity.this);
         myPlaybackEventListener = new MyPlaybackEventListener();
 
 
@@ -339,11 +454,11 @@ public class IslamiEnglishCartonActivity extends YouTubeBaseActivity implements 
                     String tag = v.getTag().toString();
                     if (tag.contains("PLAYING")){
                         if (myYoutubePlayer!=null) myYoutubePlayer.pause();
-                        else Toast.makeText(IslamiEnglishCartonActivity.this, "Please wait...", Toast.LENGTH_LONG).show();
+                        else Toast.makeText(LearningQuranWithJamalActivity.this, "Please wait...", Toast.LENGTH_LONG).show();
 
                     }else if (tag.contains("PAUSED")){
                         if (myYoutubePlayer!=null) myYoutubePlayer.play();
-                        else Toast.makeText(IslamiEnglishCartonActivity.this, "Please wait...", Toast.LENGTH_LONG).show();
+                        else Toast.makeText(LearningQuranWithJamalActivity.this, "Please wait...", Toast.LENGTH_LONG).show();
                     }
                 }
 
@@ -377,7 +492,7 @@ public class IslamiEnglishCartonActivity extends YouTubeBaseActivity implements 
 
     private void makeListView(){
 
-        ListView listView = new ListView( IslamiEnglishCartonActivity.this);
+        ListView listView = new ListView( LearningQuranWithJamalActivity.this);
         RelativeLayout.LayoutParams layoutParams = new RelativeLayout.LayoutParams(150, 10);
         layoutParams.height = ViewGroup.LayoutParams.WRAP_CONTENT;
         layoutParams.width = ViewGroup.LayoutParams.MATCH_PARENT;
@@ -398,7 +513,7 @@ public class IslamiEnglishCartonActivity extends YouTubeBaseActivity implements 
             e.printStackTrace();
         }
 
-        layoutContainer.startAnimation(AnimationUtils.loadAnimation(IslamiEnglishCartonActivity.this, R.anim.fade_in));
+        layoutContainer.startAnimation(AnimationUtils.loadAnimation(LearningQuranWithJamalActivity.this, R.anim.fade_in));
 
     }
 
@@ -506,7 +621,7 @@ public class IslamiEnglishCartonActivity extends YouTubeBaseActivity implements 
         private LayoutInflater inflater;
 
         public MyAdapter(){
-            this.inflater = (LayoutInflater) IslamiEnglishCartonActivity.this.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+            this.inflater = (LayoutInflater) LearningQuranWithJamalActivity.this.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         }
 
         @Override
@@ -588,12 +703,12 @@ public class IslamiEnglishCartonActivity extends YouTubeBaseActivity implements 
 
         if(myYoutubePlayer!=null){
             layPlayer.setVisibility(View.VISIBLE);
-            layPlayer.startAnimation(AnimationUtils.loadAnimation(IslamiEnglishCartonActivity.this, R.anim.fade_in));
+            layPlayer.startAnimation(AnimationUtils.loadAnimation(LearningQuranWithJamalActivity.this, R.anim.fade_in));
             myYoutubePlayer.loadVideo(video_id);
             myYoutubePlayer.play();
             playingVideo = true;
         }else{
-            Toast.makeText(IslamiEnglishCartonActivity.this, "Please wait...", Toast.LENGTH_LONG).show();
+            Toast.makeText(LearningQuranWithJamalActivity.this, "Please wait...", Toast.LENGTH_LONG).show();
         }
     }
     //================================================
@@ -734,7 +849,7 @@ public class IslamiEnglishCartonActivity extends YouTubeBaseActivity implements 
             String vdo_id = hashMap.get("vdo_id");
             playVideo(vdo_id);
         }else{
-            Toast.makeText(IslamiEnglishCartonActivity.this, "Playing the first video", Toast.LENGTH_LONG).show();
+            Toast.makeText(LearningQuranWithJamalActivity.this, "Playing the first video", Toast.LENGTH_LONG).show();
         }
 
     }

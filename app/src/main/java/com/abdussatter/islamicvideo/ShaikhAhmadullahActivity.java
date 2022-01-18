@@ -60,6 +60,111 @@ public class ShaikhAhmadullahActivity extends YouTubeBaseActivity implements You
 
         //Video Details Here Here S
 
+        // Video-77   ------------------------------------------------------------>>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "UDvDKDq76_Q");
+        hashMap.put("vdo_title", "একজন মুসলিমের কেমন হওয়া উচিত?");
+        hashMap.put("vdo_desciption", "বক্তা: শায়খ আহমাদুল্লাহ");
+        arrayList.add(hashMap);
+
+        // Video-77   ------------------------------------------------------------>>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "5FkIpGycLeQ");
+        hashMap.put("vdo_title", "যৌতুক নিয়ে যে কথাগুলো সকলের শোনা প্রয়োজন");
+        hashMap.put("vdo_desciption", "বক্তা: শায়খ আহমাদুল্লাহ");
+        arrayList.add(hashMap);
+
+        // Video-76   ------------------------------------------------------------>>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "fqN8pIYlyEc");
+        hashMap.put("vdo_title", "নির্বাচিত জনপ্রতিনিধি ও ক্ষমতাসীনদের প্রতি বিনীত আহ্বান");
+        hashMap.put("vdo_desciption", "বক্তা: শায়খ আহমাদুল্লাহ");
+        arrayList.add(hashMap);
+
+        // Video-75   ------------------------------------------------------------>>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "AJyr_HicTZg");
+        hashMap.put("vdo_title", "পুরানকে বিদায় ও নতুনকে বরণ করুন এভাবে");
+        hashMap.put("vdo_desciption", "বক্তা: শায়খ আহমাদুল্লাহ");
+        arrayList.add(hashMap);
+
+        // Video-74   ------------------------------------------------------------>>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "1gKmOAPdeMM");
+        hashMap.put("vdo_title", "আলেমগন কেন এক হতে পারছেন না? শয়তান এক্ষেত্রে কিভাবে কাজ করে?");
+        hashMap.put("vdo_desciption", "বক্তা: শায়খ আহমাদুল্লাহ");
+        arrayList.add(hashMap);
+
+        // Video-73   ------------------------------------------------------------>>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "jvZ_UtN5b04");
+        hashMap.put("vdo_title", "করোনাকালীন সময়ে আস-সুন্নাহ ফাউন্ডেশনের সেবামূলক উদ্যোগ");
+        hashMap.put("vdo_desciption", "বক্তা: শায়খ আহমাদুল্লাহ");
+        arrayList.add(hashMap);
+
+        // Video-72   ------------------------------------------------------------>>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "w39ECSaXEpo");
+        hashMap.put("vdo_title", "নতুন বছরের করণীয়- শায়খ আহমাদুল্লাহ");
+        hashMap.put("vdo_desciption", "বক্তা: শায়খ আহমাদুল্লাহ");
+        arrayList.add(hashMap);
+
+        // Video-71   ------------------------------------------------------------>>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "Ha69qpV6G1I");
+        hashMap.put("vdo_title", "সালাতকে নতুন করে জানতে এ আলোচনাটি শেষ পর্যন্ত শুনুন");
+        hashMap.put("vdo_desciption", "বক্তা: শায়খ আহমাদুল্লাহ");
+        arrayList.add(hashMap);
+
+        // Video-70   ------------------------------------------------------------>>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "BXaOBXb5A9s");
+        hashMap.put("vdo_title", "হিজামা বা কাপিং থেরাপি কি সুন্নাহসম্মত চিকিৎসা?");
+        hashMap.put("vdo_desciption", "বক্তা: শায়খ আহমাদুল্লাহ");
+        arrayList.add(hashMap);
+
+        // Video-69   ------------------------------------------------------------>>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "Aull4buuZ80");
+        hashMap.put("vdo_title", "কীভাবে কাটাবেন বছরের শেষ দীর্ঘ ছুটি?");
+        hashMap.put("vdo_desciption", "বক্তা: শায়খ আহমাদুল্লাহ");
+        arrayList.add(hashMap);
+
+        // Video-68   ------------------------------------------------------------>>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "Ewwx3dLzC14");
+        hashMap.put("vdo_title", "ঈসা আঃ -এর মর্যাদা ও তাঁর প্রতি আমাদের বিশ্বাস");
+        hashMap.put("vdo_desciption", "বক্তা: শায়খ আহমাদুল্লাহ");
+        arrayList.add(hashMap);
+
+        // Video-67   ------------------------------------------------------------>>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "BBvd88eqcOY");
+        hashMap.put("vdo_title", "যে অন্যায়কে বেশিরভাগ মানুষ অধিকার মনে করে!");
+        hashMap.put("vdo_desciption", "বক্তা: শায়খ আহমাদুল্লাহ");
+        arrayList.add(hashMap);
+
+        // Video-66   ------------------------------------------------------------>>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "kqXvAz6VIxQ");
+        hashMap.put("vdo_title", "বিবাহ, চাকুরি ও পরীক্ষা নিয়ে কমন প্রশ্নের ব্যতিক্রমী উত্তর");
+        hashMap.put("vdo_desciption", "বক্তা: শায়খ আহমাদুল্লাহ");
+        arrayList.add(hashMap);
+
+        // Video-65   ------------------------------------------------------------>>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "G8I2D3ZVrv0");
+        hashMap.put("vdo_title", "ফেসবুকের ভবিষ্যৎ বলা ফিচার কি কেবলই বিনোদন?");
+        hashMap.put("vdo_desciption", "বক্তা: শায়খ আহমাদুল্লাহ");
+        arrayList.add(hashMap);
+
+        // Video-64   ------------------------------------------------------------>>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "b4ZuS4_hGZg");
+        hashMap.put("vdo_title", "যন্ত্রনাহীন আত্মহত্যার মেশিন আবিস্কার; মৃত্যুযন্ত্রণা সম্পর্কে ইসলাম কী বলে?");
+        hashMap.put("vdo_desciption", "বক্তা: শায়খ আহমাদুল্লাহ");
+        arrayList.add(hashMap);
+
         // Video-63   ------------------------------------------------------------>>>>>>>>>>>>>>>>>
         hashMap = new HashMap<>();
         hashMap.put("vdo_id", "Z93LmzBBo6o");

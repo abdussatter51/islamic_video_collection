@@ -61,6 +61,14 @@ public class BanglaSongActivity extends YouTubeBaseActivity implements YouTubePl
         //Video Details Here Here
 
 
+        //Video No-58 -------------->>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "Ud-uKrFTOYg");
+        hashMap.put("vdo_title", "সেলফি নিয়ে সময়ের সেরা নতুন গজল ।");
+        hashMap.put("vdo_desciption", "Singer: Husain Adnan & Shafin Ahmad");
+        arrayList.add(hashMap);
+
+
         //Video No-57 -------------->>>>>>>>>>>>>>>>>
         hashMap = new HashMap<>();
         hashMap.put("vdo_id", "2XvMf_7cPb0");
@@ -701,6 +709,13 @@ public class BanglaSongActivity extends YouTubeBaseActivity implements YouTubePl
         hashMap.put("vdo_id", "8P4qZ_bYRbI");
         hashMap.put("vdo_title", "আমার জীবন আমার মরন,আমার বান্দেগী");
         hashMap.put("vdo_desciption", "Singer: Tarek Monawar");
+        arrayList.add(hashMap);
+
+        //Video No-01 ------------->>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "hEi9xgXYIxQ");
+        hashMap.put("vdo_title", "আহমদ আবদুল্লাহ এর প্রভু প্রেমের নাশিদ | মিনতি");
+        hashMap.put("vdo_desciption", "Singer: Ahmad Abdullah");
         arrayList.add(hashMap);
 
 

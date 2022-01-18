@@ -63,6 +63,13 @@ public class MokhterAhmadActivity extends YouTubeBaseActivity implements YouTube
 
         //Video-01 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
         hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "uNmWCOZHciY");
+        hashMap.put("vdo_title", "নিজেকে পরিবর্তনকরতে এই বক্তব্য টুকুই যথেষ্ট ।");
+        hashMap.put("vdo_desciption", "বক্তা: অধ্যাপক মোখতার আহমাদ");
+        arrayList.add(hashMap);
+
+        //Video-01 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
         hashMap.put("vdo_id", "F51nclvGL0Y");
         hashMap.put("vdo_title", "কিভাবে তওবা করলে আল্লাহ সকল গুনাহ মাফ করে দেবেন ।");
         hashMap.put("vdo_desciption", "বক্তা: অধ্যাপক মোখতার আহমাদ");

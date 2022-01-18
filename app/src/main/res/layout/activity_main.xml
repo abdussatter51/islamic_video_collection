@@ -94,6 +94,74 @@
                 android:weightSum="2">
 
                 <LinearLayout
+                    android:id="@+id/layoutLearningQuranWithJamal"
+                    style="@style/MainActivityLayoutStyle"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <io.github.florent37.shapeofview.shapes.CircleView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:elevation="4dp"
+                        app:shape_circle_borderColor="@color/teal_700"
+                        app:shape_circle_borderWidth="3dp">
+                        <!-- YOUR CONTENT -->
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/quran_learning" />
+                    </io.github.florent37.shapeofview.shapes.CircleView>
+
+                    <TextView
+                        style="@style/HomepageItemTextStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Learning Quran With Jamal Uddin" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/layoutLearningQuranTelawatWithJamal"
+                    style="@style/MainActivityLayoutStyle"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <io.github.florent37.shapeofview.shapes.CircleView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:elevation="4dp"
+                        app:shape_circle_borderColor="@color/teal_700"
+                        app:shape_circle_borderWidth="3dp">
+                        <!-- YOUR CONTENT -->
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/learning_telawah" />
+                    </io.github.florent37.shapeofview.shapes.CircleView>
+
+                    <TextView
+                        style="@style/HomepageItemTextStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Learning Quran Telawat With Jamal Udding" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+            <!--             Row-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="0dp"
+                android:orientation="horizontal"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:weightSum="2">
+
+                <LinearLayout
                     android:id="@+id/layoutAbdullahJahangir"
                     style="@style/MainActivityLayoutStyle"
                     android:layout_width="0dp"
@@ -592,7 +660,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:scaleType="fitXY"
-                            android:src="@drawable/quran" />
+                            android:src="@drawable/quran_telawah" />
                     </io.github.florent37.shapeofview.shapes.CircleView>
 
                     <TextView
