@@ -68,7 +68,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="5dp"
-                            android:text="Learning Quran Telawat Wth Jamal"
+                            android:text="Learning Quran Telawat Wth Jamal Uddin"
                             android:gravity="center"
                             android:textColor="#FFFFFF"
                             android:textSize="18sp"
