@@ -12,4 +12,5 @@
     <color name="color_200">#2196F3</color>
     <color name="color_500">#000000</color>
     <color name="color_700">#01786D</color>
+    <color name="neumorphism_background_color">#ecf0f3</color>
 </resources>

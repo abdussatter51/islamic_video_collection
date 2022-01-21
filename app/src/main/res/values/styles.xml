@@ -36,13 +36,17 @@
     <!-- MainActivity Layout Item -->
     <style name="MainActivityLayoutStyle" parent="">
         <item name="android:layout_height">211dp</item>
-        <item name="android:background">@drawable/shade_rectangle</item>
+<!--        <item name="android:background">@drawable/shade_rectangle</item>-->
         <item name="android:padding">10dp</item>
         <item name="android:layout_gravity">center</item>
         <item name="android:gravity">center</item>
         <item name="android:layout_margin">5dp</item>
         <item name="android:clickable">true</item>
         <item name="android:foreground">?attr/selectableItemBackgroundBorderless</item>
+
+
+
     </style>
+
 
 </resources>

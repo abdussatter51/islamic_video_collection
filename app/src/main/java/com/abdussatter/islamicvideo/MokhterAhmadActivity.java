@@ -9,6 +9,7 @@ import android.os.Looper;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.WindowManager;
 import android.view.animation.AnimationUtils;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
@@ -60,6 +61,13 @@ public class MokhterAhmadActivity extends YouTubeBaseActivity implements YouTube
 
         //Video Details Here Here
 
+
+        //Video-01 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "VRlo35nu5rI");
+        hashMap.put("vdo_title", "আল্লাহ তাআলার কাছে কিভাবে জবাব দিবেন নিজের সম্পর্কে ।");
+        hashMap.put("vdo_desciption", "বক্তা: অধ্যাপক মোখতার আহমাদ");
+        arrayList.add(hashMap);
 
         //Video-01 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
         hashMap = new HashMap<>();
@@ -391,6 +399,7 @@ public class MokhterAhmadActivity extends YouTubeBaseActivity implements YouTube
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_mokhter_ahmad);
 
 

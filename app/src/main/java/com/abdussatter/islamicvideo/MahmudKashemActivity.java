@@ -9,6 +9,7 @@ import android.os.Looper;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.WindowManager;
 import android.view.animation.AnimationUtils;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
@@ -61,7 +62,21 @@ public class MahmudKashemActivity extends YouTubeBaseActivity implements YouTube
         //Video Details Here Here
 
 
-        //Video-23 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        //Video-25 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "8A0pZXhTPo0");
+        hashMap.put("vdo_title", "সিজদা করো, এই সিজদার মানে কি ১ম ।");
+        hashMap.put("vdo_desciption", "বক্তা: মাহমুদ বিন ক্বাসিম");
+        arrayList.add(hashMap);
+
+        //Video-25 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "5EsZ-LWuOl8");
+        hashMap.put("vdo_title", "পাপমুক্ত জীবনের জন্য কিছু উপদেশ ।");
+        hashMap.put("vdo_desciption", "বক্তা: মাহমুদ বিন ক্বাসিম");
+        arrayList.add(hashMap);
+
+        //Video-24 ---------------------------------------------------------------->>>>>>>>>>>>>>>>>
         hashMap = new HashMap<>();
         hashMap.put("vdo_id", "tpslDKv_T64");
         hashMap.put("vdo_title", "ছোট্ট একটি হাদীস তাতে কত কি রয়েছে।");
@@ -509,6 +524,7 @@ public class MahmudKashemActivity extends YouTubeBaseActivity implements YouTube
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_mahmud_kashem);
 
 

@@ -9,6 +9,7 @@ import android.os.Looper;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.WindowManager;
 import android.view.animation.AnimationUtils;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
@@ -60,7 +61,42 @@ public class ShaikhAhmadullahActivity extends YouTubeBaseActivity implements You
 
         //Video Details Here Here S
 
-        // Video-77   ------------------------------------------------------------>>>>>>>>>>>>>>>>>
+        // Video-83   ------------------------------------------------------------>>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "1CgvXAWwwuw");
+        hashMap.put("vdo_title", "অনেক পর্দানশীন মা বোনরাও যে আমলটি বর্তমানে করতে পারছেন না");
+        hashMap.put("vdo_desciption", "বক্তা: শায়খ আহমাদুল্লাহ");
+        arrayList.add(hashMap);
+
+        // Video-82   ------------------------------------------------------------>>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "SY6kdy94vjw");
+        hashMap.put("vdo_title", "তাওবা করার পরও বারবার গুনাহ হয়ে যায়, আমার করণীয় কী?");
+        hashMap.put("vdo_desciption", "বক্তা: শায়খ আহমাদুল্লাহ");
+        arrayList.add(hashMap);
+
+        // Video-81   ------------------------------------------------------------>>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "UDvDKDq76_Q");
+        hashMap.put("vdo_title", "এই গুনাবলীর মুসলমান পাওয়া এখন দুষ্প্রাপ্য হয়ে গেছে");
+        hashMap.put("vdo_desciption", "বক্তা: শায়খ আহমাদুল্লাহ");
+        arrayList.add(hashMap);
+
+        // Video-80   ------------------------------------------------------------>>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "W0N5kflTvSw");
+        hashMap.put("vdo_title", "যে ১০ শ্রেণীর মানুষের হক আল্লাহ কখনো মাফ করবেন না");
+        hashMap.put("vdo_desciption", "বক্তা: শায়খ আহমাদুল্লাহ");
+        arrayList.add(hashMap);
+
+        // Video-79   ------------------------------------------------------------>>>>>>>>>>>>>>>>>
+        hashMap = new HashMap<>();
+        hashMap.put("vdo_id", "vS9EeayqEdw");
+        hashMap.put("vdo_title", "জান্নাতুল ফিরদাউসের উত্তরাধিকারী হবেন কারা?");
+        hashMap.put("vdo_desciption", "বক্তা: শায়খ আহমাদুল্লাহ");
+        arrayList.add(hashMap);
+
+        // Video-78   ------------------------------------------------------------>>>>>>>>>>>>>>>>>
         hashMap = new HashMap<>();
         hashMap.put("vdo_id", "UDvDKDq76_Q");
         hashMap.put("vdo_title", "একজন মুসলিমের কেমন হওয়া উচিত?");
@@ -864,6 +900,7 @@ public class ShaikhAhmadullahActivity extends YouTubeBaseActivity implements You
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_shaikh_ahmadullah);
 
 

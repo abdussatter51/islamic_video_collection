@@ -5,17 +5,47 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MujaffarBinMohsinActivity"
-    android:background="#FFFFFF"
+    android:background="@color/neumorphism_background_color"
     android:id="@+id/_rootLay"
     >
+    <LinearLayout
+        android:id="@+id/layoutHeaderSection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/color_700"
+        android:orientation="vertical"
+        android:padding="10dp">
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="মুজাফফর বিন মহসিন"
+            android:textColor="#FFFFFF"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="Bangla Islamic Scholar"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="normal" />
+
+    </LinearLayout>
 
 
     <!--- ScrollView That contains video details -->
     <ScrollView
+        android:layout_below="@id/layoutHeaderSection"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_alignParentTop="true"
+        android:layout_alignParentTop="false"
         android:layout_alignParentBottom="true">
 
         <!-- This layout will contain items by JAVA programmatically -->
@@ -46,35 +76,7 @@
                         android:layout_height="match_parent"
                         android:scaleType="fitXY"
                         android:src="@drawable/mujaffar_bin_mohsin" />
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_alignParentLeft="true"
-                        android:layout_alignParentTop="true"
-                        android:background="#66000000"
-                        android:orientation="vertical"
-                        android:padding="10dp">
 
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:gravity="center"
-                            android:text="মুজাফফর বিন মহসিন"
-                            android:textColor="#FFFFFF"
-                            android:textSize="28sp"
-                            android:textStyle="bold" />
-
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginLeft="5dp"
-                            android:text="Bangla Islamic Scholar"
-                            android:gravity="center"
-                            android:textColor="#FFFFFF"
-                            android:textSize="18sp"
-                            android:textStyle="normal" />
-
-                    </LinearLayout>
 
 
                 </io.github.florent37.shapeofview.shapes.ArcView>
