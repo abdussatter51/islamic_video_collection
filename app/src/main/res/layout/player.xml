@@ -65,7 +65,7 @@
             android:src="@drawable/cross"
             android:layout_weight="25"
             android:clickable="true"
-            android:tint="@color/teal_700"
+            android:tint="@color/base_color"
             android:foreground="?attr/selectableItemBackgroundBorderless"
             tools:ignore="UseAppTint" />
 

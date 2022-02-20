@@ -9,8 +9,18 @@
     <color name="white">#FFFFFFFF</color>
 
 
-    <color name="color_200">#2196F3</color>
-    <color name="color_500">#000000</color>
-    <color name="color_700">#01786D</color>
-    <color name="neumorphism_background_color">#ecf0f3</color>
+
+    <color name="text_color">#000000</color>
+    <color name="background_color">#673AB7</color>
+    <color name="background">#ecf0f3</color>
+    <color name="highlight">#EFEEEC</color>
+    <color name="shadow_color">#673AB7</color>
+    <color name="title_back">#40000000</color>
+
+    <color name="base_color">#01786D</color>
+
+    <color name="thankYou_title">#FFC107</color>
+    <color name="thankYou_des">#9E9393</color>
+
+
 </resources>

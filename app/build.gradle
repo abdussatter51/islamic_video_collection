@@ -9,8 +9,8 @@ android {
         applicationId "com.abdussatter.islamicvideo"
         minSdk 21
         targetSdk 31
-        versionCode 8
-        versionName "2.0.0"
+        versionCode 11
+        versionName "2.0.2"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -22,9 +22,11 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
     }
+    compileSdkVersion 31
+    buildToolsVersion '31.0.0'
 }
 
 dependencies {
@@ -41,11 +43,18 @@ dependencies {
     //admob
     implementation 'com.google.android.gms:play-services-ads:20.5.0'
 
+    //neumorphism lib
+    implementation 'com.github.fornewid:neumorphism:0.3.0'
+
     //Youtube Player
     implementation files('libs/YouTubeAndroidPlayerApi.jar')
 
+    //Image Sliding Library
+    implementation 'com.github.denzcoskun:ImageSlideshow:0.1.0'
+
+    //Lottie Animation
+    implementation "com.airbnb.android:lottie:3.7.0"
+
     //Shape of View
     implementation 'io.github.florent37:shapeofview:1.4.7'
-
-    implementation 'com.github.fornewid:neumorphism:0.3.0'
 }

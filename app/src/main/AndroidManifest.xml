@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    package="com.abdussatter.islamicvideo">
+    package="com.abdussatter.islamicvideo"
+    >
 
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
-    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-    <!--<uses-permission android:name="android.permission.SEND_SMS" />-->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- Using for Android 11.0 or higher | Youtube API acess -->
     <queries>
         <package android:name="com.google.android.youtube" />
     </queries>
@@ -19,89 +17,26 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/ThemeHome">
+
         <activity
-            android:name=".LearningQuranTelawatWithJamalActivity"
-            android:exported="false" />
+            android:name="com.abdussatter.islamicvideo.MainActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize|layoutDirection|uiMode"
+            android:exported="true"
+            />
         <activity
-            android:name=".LearningQuranWithJamalActivity"
-            android:exported="false" />
-        <activity
-            android:name=".MokhterAhmadActivity"
-            android:exported="false" />
-        <activity
-            android:name=".AbuTahaActivity"
-            android:exported="false" />
-        <activity
-            android:name=".ProphetStoryCartonActivity"
-            android:exported="false" />
-        <activity
-            android:name=".ProphetStoryActivity"
-            android:exported="false" />
-        <activity
-            android:name=".IslamiEnglishCartonActivity"
-            android:exported="false" />
-        <activity
-            android:name=".UrduSongActivity"
-            android:exported="false" />
-        <activity
-            android:name=".ArabicSongActivity"
-            android:exported="false" />
-        <activity
-            android:name=".EnglishSongActivity"
-            android:exported="false" />
-        <activity
-            android:name=".QuranTelawatBanglaActivity"
-            android:exported="false" />
-        <activity
-            android:name=".MujaffarBinMohsinActivity"
-            android:exported="false" />
-        <activity
-            android:name=".MizanurRahmanActivity"
-            android:exported="false" />
-        <activity
-            android:name=".QuranTelawatActivity"
-            android:exported="false" />
-        <activity
-            android:name=".IslamiCartonActivity"
-            android:exported="false" />
-        <activity
-            android:name=".IslamiMovieActivity"
-            android:exported="false" />
-        <activity
-            android:name=".SaifullahLectureAcitvity"
-            android:exported="false" />
-        <activity
-            android:name=".BanglaSongActivity"
-            android:exported="false" />
-        <activity
-            android:name=".AbdullahJahangirActivity"
-            android:exported="false" />
-        <activity
-            android:name=".DubbingLectureActivity"
-            android:exported="false" />
-        <activity
-            android:name=".ShaikhAhmadullahActivity"
-            android:exported="false" />
-        <activity
-            android:name=".MahmudKashemActivity"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivity"
+            android:name="com.abdussatter.islamicvideo.Home"
+            android:configChanges="keyboardHidden|orientation|screenSize|layoutDirection|uiMode"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
-<!--                new action added-->
-                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
             </intent-filter>
         </activity>
 
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
             android:value="@string/admob_APP_ID" />
-
     </application>
-
-
 
 </manifest>
